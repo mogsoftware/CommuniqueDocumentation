@@ -1,10 +1,10 @@
-# Communique 5.0
+# Player
 
 ## Criação de Player
 
 Para ser direcionado à página onde estão todos os players cadastrados, é necessário acessar o menu do Communique no canto esquedo da página e clicar em <ui-path>Players | Todos os Players </ui-path>.
 
-<video src="acesso-player.mp4" xmlns="" preview-src="acesso-player.png"/>
+<video src="../videos/acesso-player.mp4" xmlns="" preview-src="acesso-player.png"/>
 
 Para criar um player novo é necessário clicar no botão <img src="add.png" alt="Add icon" width="24" style="inline"/> localizado na parte superior direita, logo abaixo dos filtros de pesquisa.<br></br>
 Uma janela abrirá para que as informações do novo player sejam preenchidas.
@@ -87,19 +87,31 @@ Uma janela abrirá para que as informações do novo player sejam preenchidas.
 <chapter title="Config" id="config_Config" collapsible="true">
 <deflist collapsible="true">
     <def title="Playlists" default-state="collapsed">
-a
+        É criada ao clicar no botão <img src="add.png"/> localizado no canto esquerdo da página.<br/>
+        <img src="Playlist.jpg"/>
+        É necessário adicionar um nome e descrição para a playlist, além de selecionar o formato e media type das mídias que serão programadas.   
     </def>
     <def title="Settings" default-state="collapsed">
-a
+        Configuração de cartelera/grade do player. Afeta os plugins Showtimes, Boxoffice e Postercase.
+        <img src="Settings.jpg"/>
+        <list type="bullet">
+            <li>Grid Path<p>Endereço da API de cartelera/grade.</p></li>
+            <li>Order<p>Ordem de importância das sessões.</p></li>
+            <li>API Token Auth<p>Chave de autorização para acesso à API.</p></li>
+            <li>API SmartPlayer<p>Endereço da API de Combos, para players de Snack que exibem vídeos de combos na playlist de promoções.</p></li>
+</list>        
     </def>
     <def title="Sync" default-state="collapsed">
-a
+        Tempo em minutos estabelecido para que o player faça cada tipo de sincronização.
+        <img src="Sync.jpg"/>        
     </def>
     <def title="Layer" default-state="collapsed">
-a
+        Video exibido por cima do conteúdo do player. O formato da playlist e do layer depende da montagem do player e normalmente é exibido apenas nas bilheterias dos cinemas.
+        <img src="Layer.jpg"/>
     </def>
     <def title="Event" default-state="collapsed">
-a
+        O material programado na playlist específica de evento, irá sobrepor todo o conteúdo do player durante o tempo (horas ou dias) determinado na configuração.
+        <img src="Evento.jpg"/>
     </def>
     <def title="Lobby" default-state="collapsed">
 a
@@ -107,39 +119,50 @@ a
 </deflist>
 </chapter>
 <chapter title="Montagem" id="config_Montagem" collapsible="true">
-<deflist collapsible="true">
-</deflist>
+    <img src="Montagem.jpg"/>
 </chapter>
 <chapter title="Plugin" id="config_Plugin" collapsible="true">
 <deflist collapsible="true">
     <def title="Showtimes" default-state="collapsed">
-    Exibe os horários dos filmes, com indicação de cor para qual é a próxima sessão e para sessões com poucos assentos e lotadas.
+    Exibe o horário e tipo das sessões e elas podem ser ordenadas alfabeticamente, por prioridade ou número de sessões.
+Tembém é possível filtrar para que exiba apenas sessões regulares ou prime.
     <img src="Showtimes.jpg" alt="criação" width="450"/>
     </def>
     <def title="Boxoffice" default-state="collapsed">
+    Exibe o horário e tipo das sessões com o poster do filme. 
     <img src="Boxoffice.jpg" alt="criação" width="450"/>
     </def>
     <def title="Player" default-state="collapsed">
+        Utilizado para exibição de vídeos ou imagens programados em uma playlist. Este plugin pode ser configurado nos formatos 1x1, 2x1, 3x1 e 4x1.
     <img src="Player.jpg" alt="criação" width="450"/>
     </def>
     <def title="Postercase" default-state="collapsed">
+        Possui dois layouts utilizados de maneira diferente.<br/>
+        Postercase: Utilizado nas portas de sala dos cinemas, exibe o poster do filme que está em exibição naquela sala.<br/>        
     <img src="Postercase.jpg" alt="criação" width="450"/>
+        <br/><br/>Smartpostercase: Exibe trailer, poster e outras informações dos filmes.
+        <br/>No formato Presentando, exibe filmes em cartaz do cinema com os horários das sessões.No formato Proximamente, exibe filmes que ainda serão lançados e não possui horário.
     <img src="Postercase2.jpg" alt="criação" width="450"/>
     </def>
     <def title="Combos" default-state="collapsed">
-a
+        Exibe os combos de pipoca do cinema. Pode ser configurado para exibir o conteúdo no formado 1x1 e 2x1.<br/>
+        Na versão 1.0 do plugin, é necessário que exista uma playlist para exibição dos vídeos de combo.
+    <img src="Combos.jpg"/>
     </def>
     <def title="Menu" default-state="collapsed">
-a
+        Exibe os demais itens da bomboniere do cinema, além dos preços avulsos de pipoca e bebida.
+        <img src="Menu.jpg"/>
     </def>
     <def title="Prices" default-state="collapsed">
-a
+        Exibe os preços dos ingressos do cinema, separado por tipo de sessão e sala.
+        <img src="Prices.jpg"/>
     </def>
     <def title="MixPlugins" default-state="collapsed">
-a
+        Utilizado para exibir dois plugins diferentes na mesma tela. 
+        <img src="Mix.jpg"/>
     </def>
     <def title="Inactive" default-state="collapsed">
-a
+        Utilizado quando o quadrante não está em uso e não será necessário configurar nenhum plugin nele.
     </def>
 </deflist>
 </chapter>
