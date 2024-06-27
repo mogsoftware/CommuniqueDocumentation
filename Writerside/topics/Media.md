@@ -1,6 +1,4 @@
-# Communique v5.0
-
-## Media
+# Media
 
 O Communique permite o upload e gerenciamento de diversos tipos de mídia, essenciais para a exibição de conteúdo nas telas dos cinemas.
 
