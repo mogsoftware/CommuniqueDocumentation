@@ -4,8 +4,11 @@
 
 <instance-profile id="hi"
                  name="Help Instance"
-                 start-page="Default-topic.md">
+                  start-page="Communique5.md">
 
-    <toc-element topic="Default-topic.md"/>
-    <toc-element topic="Player.md"/>
+    <toc-element topic="Communique5.md">
+        <toc-element topic="Player.md"/>
+        <toc-element topic="Media.md"/>
+        <toc-element topic="Campanha.md"/>
+    </toc-element>
 </instance-profile>

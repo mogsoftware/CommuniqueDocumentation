@@ -47,40 +47,53 @@ Uma janela abrirá para que as informações do novo player sejam preenchidas.
 </list>
 
 ### Display
+
+<list type="decimal" start="1">
+    <li>Monitor
+        <list type="bullet">
+            <li>Modelo do monitor utilizado.</li>
+        </list>
+    </li>
+    <li>Inches
+        <list type="bullet">
+            <li>Quantidade de polegadas do monitor.</li>
+        </list>
+    </li>
+    <li>Screens
+        <list type="bullet">
+            <li>Quantidade de monitores do player. Na imagem aparece ao lado do campo de inches com o número zero por padrão.</li>
+        </list>
+    </li>
+    <li>Screen Resolution
+        <list type="bullet">
+            <li>Resolução dos monitores.</li>
+        </list>
+    </li>
+    <li>Format
+        <list type="bullet">
+            <li>Disposição das telas do player no local.</li>
+        </list>
+    </li>
+    <li>Videowall
+        <list type="bullet">
+            <li>Disposição das telas do player para montagem do diagrama. Pode ser o mesmo do item anterior ou possuir um formato diferente em caso de telas espelhadas.</li>
+        </list>
+    </li>
+    <li>Orientação
+        <list type="bullet">
+            <li>Orientação do conteúdo do player.</li>
+        </list>
+    </li>
+</list>
+
 ### Montage
+
+Definição de quantas máquinas e/ou saídas de vídeo serão utilizadas por este player.
+
+É necessário que haja ao menos uma máquina e uma saída de vídeo.
+
 ### Options
 
-
-
-<chapter title="Display" id="player_Display" collapsible="true">
-<deflist collapsible="true">
-    <def title="Monitor" default-state="expanded">
-        Modelo do monitor utilizado.
-    </def>
-    <def title="Inches" default-state="expanded">
-        Quantidade de polegadas do monitor.
-    </def>
-    <def title="Screens" default-state="expanded">
-        Quantidade de monitores do player. Na imagem aparece ao lado do campo de inches com o número zero por padrão.
-    </def>
-    <def title="Screen Resolution" default-state="expanded">
-        Resolução dos monitores.
-    </def>
-    <def title="Format" default-state="expanded">
-        Disposição das telas do player no local.
-    </def>
-    <def title="Videowall" default-state="expanded">
-        Disposição das telas do player para montagem do diagrama. Pode ser o mesmo do item anterior ou possuir um formato diferente em caso de telas espelhadas.
-    </def>
-    <def title="Orientação" default-state="expanded">
-        Orientação do conteúdo do player.
-    </def>
-</deflist>
-</chapter>
-<chapter title="Montage" id="player_Montage" collapsible="true">
-    Definição de quantas máquinas e/ou saídas de vídeo serão utilizadas por este player.<br/>
-    É necessário que haja ao menos uma máquina e uma saída de vídeo.
-</chapter>
 <chapter title="Options" id="player_Options" collapsible="true">
 <deflist collapsible="true">
     <def title="Prevent" default-state="expanded">
