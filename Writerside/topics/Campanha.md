@@ -9,15 +9,39 @@ As mídias a serem exibidas precisam ser previamente upadas e o player group cri
 
 <img src="Campanha.png"/>
 
-<list type="bullet">
-            <li>Name<p>Nome da campanha.</p></li>
-            <li>Description<p>Descrição da campanha ou do conteúdo.</p></li>
-            <li>Insertion by Day<p>Número de vezes que a campanha será exibida por dia. O player contabilizará esse número baseado no conteúdo que já está programado na playlist. Caso esse campo não seja preenchido, a campanha seguirá a programação normal da playlist.</p></li>
-            <li>Client<p>Seleção do cliente responsável por essa <i>campanha</i>.</p></li>
-            <li>Advertiser<p>Seleção do anunciante. Caso ele ainda não esteja no sistema, é possível criar clicando no icone + ao lado.</p></li>
-            <li><p>Player Group</p>Seleção do player group criado para a campanha.</li>
-            <li>Campaign Schedule<p>Período de duração da campanha. Caso seja necessário, ele poderá ser alterado até um dia antes do início da campanha.</p></li>
-            <li>Week Days<p>Dias da semana em que a campanha será exibida.</p></li>
+<list type="decimal">
+            <li>Name
+                <list type="bullet">
+                    <li>Nome da campanha.</li></list>
+            </li>
+            <li>Description
+                <list type="bullet">
+                    <li>Descrição da campanha ou do conteúdo.</li></list>
+            </li>
+            <li>Insertion by Day
+                <list type="bullet">
+                    <li>Número de vezes que a campanha será exibida por dia. O player contabilizará esse número baseado no conteúdo que já está programado na playlist. Caso esse campo não seja preenchido, a campanha seguirá a programação normal da playlist.</li></list>
+            </li>
+            <li>Client
+                <list type="bullet">
+                    <li>Seleção do cliente responsável por essa <i>campanha</i></li></list>
+            </li>
+            <li>Advertiser
+                <list type="bullet">
+                    <li>Seleção do anunciante. Caso ele ainda não esteja no sistema, é possível criar clicando no icone + ao lado</li></list>
+            </li>
+            <li>Player Group
+                <list type="bullet">
+                    <li>Seleção do player group criado para a campanha.</li></list>
+            </li>
+            <li>Campaign Schedule
+                <list type="bullet">
+                    <li>Período de duração da campanha. Caso seja necessário, ele poderá ser alterado até um dia antes do início da campanha.</li></list>
+            </li>
+            <li>Week Days
+                <list type="bullet">
+                    <li>Dias da semana em que a campanha será exibida.</li></list>
+            </li>
 </list>
 
 Após o preenchimento dos campos, a página para seleção de mídias estará disponível. A mídia pode ser filtrada por nome, media type e client.
