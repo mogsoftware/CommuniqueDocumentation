@@ -11,30 +11,46 @@ Uma janela abrirá para que as informações do novo player sejam preenchidas.
 
 <img src="Criacao.jpg"  alt="criação" width="450"/>
 
-<chapter title="Information" id="player_Information" collapsible="true">
-<deflist collapsible="true">
-    <def title="Nome" default-state="expanded">
-        Nome dado ao player para melhor identificação.
-    </def>
-    <def title="Hostname" default-state="expanded">
-        É o nome dado ao dispositivo em uma rede, podendo ser um computador, um servidor etc.<br/>
-        É possível descobrir o hostname da máquina digitando "hostname" no prompt de comando.
-    </def>
-    <def title="MacAddress" default-state="expanded">
-        É o endereço físico da máquina. Também é possível localiza-lo no prompt de comando do digitar "getmac".
-    </def>
-    <def title="Theater" default-state="expanded">
-        É o cinema onde está localizada a máquina. Ao clicar nessa sessão, uma lista de cinemas é exibida.
-    </def>
-    <def title="Player Category" default-state="expanded">
-        Categoria do player que pode ser definida pelo tipo de cinema (Regular, Premier ou Bistro) ou ????
-    </def>
-    <def title="Locate" default-state="expanded">
-        Local do cinema onde o player será exibido.
-    </def>
+### Information
 
-</deflist>
-</chapter>
+<list type="decimal" start="1">
+    <li>Nome
+        <list type="bullet">
+            <li>Nome dado ao player para melhor identificação.</li>
+        </list>
+    </li>
+    <li>Hostname
+        <list type="bullet">
+            <li>É o nome dado ao dispositivo em uma rede, podendo ser um computador, um servidor etc. É possível descobrir o hostname da máquina digitando "hostname" no prompt de comando.</li>
+        </list>
+    </li>
+    <li>MacAddress
+        <list type="bullet">
+            <li>É o endereço físico da máquina. Também é possível localiza-lo no prompt de comando do digitar "getmac"..</li>
+        </list>
+    </li>
+    <li>Theater
+        <list type="bullet">
+            <li>É o cinema onde está localizada a máquina. Ao clicar nessa sessão, uma lista de cinemas é exibida..</li>
+        </list>
+    </li>
+    <li>Player Category
+        <list type="bullet">
+            <li>Categoria do player que pode ser definida pelo tipo de cinema (Regular, Premier ou Bistro) ou ????.</li>
+        </list>
+    </li>
+    <li>Locate
+        <list type="bullet">
+            <li>Local do cinema onde o player será exibido.</li>
+        </list>
+    </li>
+</list>
+
+### Display
+### Montage
+### Options
+
+
 
 <chapter title="Display" id="player_Display" collapsible="true">
 <deflist collapsible="true">
