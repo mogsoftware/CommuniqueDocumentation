@@ -7,7 +7,7 @@
                   start-page="Communique5.md">
 
     <toc-element topic="Communique5.md">
-        <toc-element topic="Management.md"/>
+<!--        <toc-element topic="Management.md"/>-->
         <toc-element topic="Users.md"/>
         <toc-element topic="Theaters.md"/>
         <toc-element topic="Player.md"/>
