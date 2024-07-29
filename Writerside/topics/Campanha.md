@@ -9,6 +9,7 @@ As mídias a serem exibidas precisam ser previamente upadas e o player group cri
 
 <img src="Campanha.png"/>
 
+<p></p>
 <list type="decimal">
             <li>Name
                 <list type="bullet">
