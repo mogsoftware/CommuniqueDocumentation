@@ -113,14 +113,14 @@ Os campos do plugin são preenchidos com o número 1, com exceção do *Plugin S
 Os campos *Player Width* e *Player Height*, na primeira tela do plugin, são preenchidos de acordo com o tamanho do vídeo que será exibido por ele.
 Na segunda tela do plugin, altera-se o campo *Plugin Screen* e *Screen Col* para indicar ao player que ele deve exibir o segundo quadrante do vídeo e é necessário ativar o botão *Hide on Player*.
 <img src="config_pl2x1.png" width="600" preview-src="config_pl2x1.png"/>
-<img src="PLAYER2X1.png" width="600" preview-src="PLAYER2X1.png"/>
+<img src="PL2X1.png" width="600" preview-src="PL2X1.png"/>
 
 #### PLAYER 3X1
 
 Os campos são preenchidos como no formato 2x1, porém a primeira tela do plugin recebe em *Extendeds Monitors* o número da tela que será uma extensão dela.
 Já a terceira tela, além dos campos de *Plugin Screen* e *Screen Col*, é necessário ativar o botão *It's an extension* para indicar que aquela tela é uma extensão do monitor que será inserido no campo *Extended Monitors*.
 <img src="config_pl3x1.png" width="600" preview-src="config_pl3x1.png"/>
-<img src="PLAYER3X1.png" width="600" preview-src="PLAYER3X1.png"/>
+<img src="PL3X1.png" width="600" preview-src="PL3X1.png"/>
 
 #### PLAYER 4X1
 <img src="config_pl4x1.png" width="600" preview-src="config_pl4x1.png"/>
