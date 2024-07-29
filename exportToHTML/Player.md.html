@@ -1,0 +1,659 @@
+<html>
+<head>
+<title>Player.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #d5b778;}
+.s4 { color: #bababa;}
+.s5 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Player.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">Player</span>
+<span class="s3">&lt;show-structure </span><span class="s4">depth</span><span class="s5">=&quot;2&quot;</span><span class="s3">/&gt;</span>
+<span class="s2">## Criação de Player</span>
+
+<span class="s2">Para ser direcionado à página onde estão todos os players cadastrados, é necessário acessar o menu do Communique no canto esquedo da página e clicar em </span><span class="s1">&lt;</span><span class="s2">ui-path</span><span class="s1">&gt;</span><span class="s2">Players | Todos os Players </span><span class="s1">&lt;</span><span class="s2">/ui-path</span><span class="s1">&gt;</span><span class="s2">.</span>
+
+<span class="s3">&lt;video </span><span class="s4">src</span><span class="s5">=&quot;../videos/acesso-player.mp4&quot; </span><span class="s4">xmlns</span><span class="s5">=&quot;&quot; </span><span class="s4">preview-src</span><span class="s5">=&quot;acesso-player.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s2">Para criar um player novo é necessário clicar no botão </span><span class="s1">&lt;img src=&quot;add.png&quot; alt=&quot;Add icon&quot; width=&quot;24&quot; style=&quot;inline&quot;/&gt; </span><span class="s2">localizado na parte superior direita, logo abaixo dos filtros de pesquisa.</span><span class="s1">&lt;br&gt;&lt;/br&gt;</span>
+<span class="s2">Uma janela abrirá para que as informações do novo player sejam preenchidas.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Criacao.jpg&quot;  </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Information</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot; </span><span class="s4">start</span><span class="s5">=&quot;1&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Nome</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Nome dado ao player para melhor identificação.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Hostname</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Nome dado ao dispositivo em uma rede, podendo ser um computador, um servidor etc. É possível descobrir o hostname da máquina digitando &quot;hostname&quot; no prompt de comando.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">MacAddress</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço físico da máquina. Também é possível localiza-lo no prompt de comando do digitar &quot;getmac&quot;.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Theater</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Cinema onde está localizada a máquina. Ao clicar nessa sessão, uma lista de cinemas é exibida.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Player Category</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Categoria do player que pode ser definida pelo tipo de cinema (Regular, Premier ou Bistro) ou ????.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Locate</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Local do cinema onde o player será exibido.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s0">### </span><span class="s2">Display</span>
+
+
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot; </span><span class="s4">start</span><span class="s5">=&quot;1&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Monitor</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Modelo do monitor utilizado.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Inches</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Quantidade de polegadas do monitor.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Screens</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Quantidade de monitores do player. Na imagem aparece ao lado do campo de inches com o número zero por padrão.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Screen Resolution</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Resolução dos monitores.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Format</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Disposição das telas do player no local.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Videowall</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Disposição das telas do player para montagem do diagrama. Pode ser o mesmo do item anterior ou possuir um formato diferente em caso de telas espelhadas.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Orientação</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Indica se o monitor está posicionado na horizontal ou vertical.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s0">### </span><span class="s2">Montage</span>
+
+<span class="s2">Definição de quantas máquinas e/ou saídas de vídeo serão utilizadas por este player.</span>
+
+<span class="s2">É necessário que haja ao menos uma máquina e uma saída de vídeo.</span>
+
+<span class="s0">### </span><span class="s2">Options</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot; </span><span class="s4">start</span><span class="s5">=&quot;1&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Prevent </span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Item de segurança que ao ser ativado, previne que o player faça algum tipo de download.</span>
+                <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Config Prevent</span>
+                    <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt; </span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Bloqueio de atualização das configurações do player.</span><span class="s3">&lt;/li&gt;</span>
+                    <span class="s3">&lt;/list&gt;&lt;/li&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Playlist Prevent </span>
+                    <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Bloqueio de atualização das playlists do player.</span><span class="s3">&lt;/li&gt;</span>
+                    <span class="s3">&lt;/list&gt;&lt;/li&gt;</span>
+                <span class="s3">&lt;/list&gt;&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Advertising</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">O Advertising vem ativado por padrão e é utilizado em players que exibem campanhas. Essa opção faz com que o player envie a contagem de exibição das mídias de campanha que são visualizadas no report de campanha</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s0">## </span><span class="s2">Configuração de Player</span>
+
+<span class="s0">### </span><span class="s2">Config</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Playlists&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Playlist&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">É criada ao clicar no botão </span><span class="s1">&lt;img src=&quot;add.png&quot;/&gt; </span><span class="s2">localizado no canto esquerdo da página.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Playlist.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s2">É necessário adicionar um nome e descrição para a playlist, além de selecionar o formato e media type das mídias que serão programadas.</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Settings&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Settings&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Configuração de cartelera/grade do player. Afeta os plugins Showtimes, Boxoffice e Postercase.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Settings.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Grid Path</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço da API de cartelera/grade.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Order</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Ordem de importância das sessões.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">API Token Auth</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Chave de autorização para acesso à API.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">API SmartPlayer</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço da API de Combos, para players de Snack que exibem vídeos de combos na playlist de promoções.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;    </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Sync&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Sync&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Tempo em minutos estabelecido para que o player faça cada tipo de sincronização.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Sync.jpg&quot;</span><span class="s3">/&gt;  </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Layer&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Layer&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Video exibido por cima do conteúdo do player. O formato da playlist e do layer depende da montagem do player e normalmente é exibido apenas nas bilheterias dos cinemas.</span>
+       
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Layer.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Event&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Event&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">O material programado na playlist específica de evento, irá sobrepor todo o conteúdo do player durante o tempo </span><span class="s1">(</span><span class="s2">horas ou dias</span><span class="s1">) </span><span class="s2">determinado na configuração.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Evento.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Lobby&quot; </span><span class="s4">id</span><span class="s5">=&quot;config_Lobby&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">aaaa</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s0">### </span><span class="s2">Montagem</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Montagem.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Plugin</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Showtimes&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Showtimes&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Exibe o horário e tipo das sessões e elas podem ser ordenadas alfabeticamente, por prioridade ou número de sessões.</span>
+<span class="s2">Tembém é possível filtrar para que exiba apenas sessões regulares ou prime.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Showtimes.jpg&quot; </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. O Showtimes 2.0 possui uma segunda tela, fazendo com que esse número possa variar entre 1 e 2.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Videowall Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Posição do plugin no videwall. Esse número pode variar entre 1 e 16.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin. As opções disponíveis são 1.0 e 2.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Switch Page Time</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tempo que o plugin leva para exibir a próxima página com horários. A contagem é feita pelo número de filmes da página vezes o tempo em segundos indicado na configuração.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Show Only Next Sessions</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Quando ativo, o plugin oculta os horários de sessões que já foram exibidas.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Filter</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Possibilita filtrar as sessões para exibir apenas regular ou prime. Também é possível exibir os dois tipos ao selecionar </span><span class="s3">&lt;i&gt;</span><span class="s2">none</span><span class="s3">&lt;/i&gt;</span><span class="s2">.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Order By</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Ordem em que os horários dos filmes serão exibidos pelo plugin, sendo elas: alfabética, número de sessões e prioridade.</span>
+                <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Alphabetical: Exibe os filmes em ordem alfabética.</span><span class="s3">&lt;/li&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Number of Sessions: Exibe o filme por número de sessões em ordem decrescente.</span><span class="s3">&lt;/li&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Priority: Exibe os filmes de acordo com a prioridade inserida em </span><span class="s3">&lt;ui-path&gt;</span><span class="s2">Settings | Order</span><span class="s3">&lt;/ui-path&gt;</span><span class="s2">.</span><span class="s3">&lt;/li&gt;&lt;/list&gt;&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt; </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Boxoffice&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Boxoffice&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Exibe o horário e tipo das sessões com o poster do filme.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Boxoffice.jpg&quot; </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. Esse número varia entre 1 e a quantidade de telas utilizadas por este plugin. É necessário que cada tela seja preenchida com o número correspondente para que não haja falta ou duplicidade de conteúdo.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Videowall Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Posição do plugin no videwall. Esse número pode variar entre 1 e 16.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin. As opções disponíveis são 1.0 e 2.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Split Movies by Exihibitions</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Separa os itens por legendado e dublado.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Filter</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Quando ativo, o plugin oculta os horários de sessões que já foram exibidas.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Layouts</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Número de sessões exibidas por tela. O plugin faz uma contagem automaticamente para que todas as sessões sejam distribuidas entre os layouts disponíveis. </span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Order By</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Primeiro: Define a ordem dos itens.</span>
+                <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Alphabetical: As sessões são exibidas por ordem alfabética.</span><span class="s3">&lt;/li&gt;</span>
+                    <span class="s3">&lt;li&gt;</span><span class="s2">Session: As sessões são ordenadas por quantidade de sessão.</span><span class="s3">&lt;/li&gt;&lt;/list&gt;&lt;/li&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Segundo: Cria uma subordem quando os itens possuem a mesma prioridade com base na primeira sessão.</span>
+                <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">&gt;</span>
+                <span class="s3">&lt;li&gt;</span><span class="s2">Alphabetical: As sessões são exibidas por ordem alfabética.</span><span class="s3">&lt;/li&gt;</span>
+                <span class="s3">&lt;li&gt;</span><span class="s2">Session: As sessões são ordenadas por quantidade de sessão.</span><span class="s3">&lt;/li&gt;&lt;/list&gt;&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt; </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Player&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Player&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Utilizado para exibição de vídeos ou imagens programados em uma playlist. Este plugin pode ser configurado nos formatos 1x1, 2x1, 3x1 e 4x1.</span>
+    
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Player.jpg&quot; </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. Neste caso, o plugin screen corresponde ao quadrante do vídeo que será exibido.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Position</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Posição do plugin no videwall.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">SV Size</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Configuração voltada para o *Smartviewer*. Na primeira tela é inserido o número de quadrantes do vídeo e nas demais coloca-se zero.</span>
+<span class="s2">Exemplo: Em um vídeo 4x1, a primeira tela do plugin receberá o número 4 no *Sv Size*, as demais receberão 0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin. Disponível apenas na versão 2.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Screen Line</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">aaa</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Screen Col</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">aaa</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Player Width</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">aaa</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Player Height</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">aaa</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Hide on Player</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado nas telas que são uma extensão diretamente à direita.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">It's an extension</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar que aquele monitor é uma extensão de outro quando não estão na mesma linha.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Extendeds Monitors</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar para qual monitor esse vídeo será estendido. Se a tela for uma extensão, é necessário indicar o número do monitor em que o vídeo inicia.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt; </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Postercase&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Postercase&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Possui dois layouts utilizados de maneira diferente.</span><span class="s1">&lt;br/&gt;</span>
+
+<span class="s1">**</span><span class="s2">Postercase</span><span class="s1">**: </span><span class="s2">Utilizado nas portas de sala dos cinemas, exibe o poster do filme que está em exibição naquela sala.</span><span class="s1">&lt;br/&gt;        </span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Postercase.jpg&quot; </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin. Disponível nas versões 1.0 e 2.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Room</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Número correspondente à sala do cinema em que o player está localizado.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Use BR Layout</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Ativa o layout de postercase do Brasil.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Smartpostercase</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Ativa o plugin *Smartpostercase*</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt; </span>
+
+<span class="s3">&lt;br/&gt;</span><span class="s2">**Smartpostercase**: Exibe trailer, poster e outras informações dos filmes.</span>
+<span class="s3">&lt;br/&gt;</span><span class="s2">No formato Presentando, exibe filmes em cartaz do cinema com os horários das sessões.No formato Proximamente, exibe filmes que ainda serão lançados e não possui horário.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Postercase2.jpg&quot; </span><span class="s4">alt</span><span class="s5">=&quot;criação&quot; </span><span class="s4">width</span><span class="s5">=&quot;450&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Plugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. Neste caso não é necessário alterar o número da tela para que todo o conteúdo seja exibido.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Presentando XML/API Path</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço para o arquivo xml ou API que será utilizado para exibir filmes que estão em cartaz.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Proximamente XML/API Path</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço para o arquivo xml ou API que será utilizado para exibir os próximos filmes que entrarão em cartaz.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Poster Change</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tempo de exibição de cada filme contido no arquivo.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Smartpostercase ordering</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Ordem de exibição dos filmes.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt; </span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Combos&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Combos&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Exibe os combos de pipoca do cinema. Pode ser configurado para exibir o conteúdo no formado 1x1 e 2x1.</span><span class="s1">&lt;br/&gt;</span>
+<span class="s2">Na versão 1.0 do plugin, é necessário que exista uma playlist para exibição dos vídeos de combo.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Combos.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. As duas vesões do plugin possuem opção 2x1.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Videowall Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Posição do plugin no videwall</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Is extends</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Opção direcionada a versão 1.0, usada para indicar que o vídeo do plugin será estendido.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Dual Monitor</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar que o plugin será 2x1.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Combos XML</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço do XML/API de combos.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Seconds to combo switch</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tempo em que o combo será exibido. Na versão 1.0, indica quanto tempo o carrossel ficará parado.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Layout</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tipo de layout do plugin. Utilizado apenas na versão 1.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Combo Header Font Size</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tamanho da fonte do nome dos combos.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Combo Price Font Size</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">UTamanho da fonte dos preços.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Gold Percent</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Porcentagem de desconto dos preços GOLD.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pro Percent</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Porcentagem de desconto dos preços PRO.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Price Label</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Legenda abaixo do preço. Utilizado apenas na versão 1.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Special Color Price</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Cor especial dos preços. Utilizado apenas na versão 1.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Invert price with special price</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Inverte o preço original com o preço promocional. </span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Line through original price</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Insere uma linha vermelha no preço original dos combos. Utilizado apenas na versão 1.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Hidden Cents</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Oculta os centavos dos preços. Utilizado apenas na versão 1.0.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Menu&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Menu&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Exibe os demais itens da bomboniere do cinema, além dos preços avulsos de pipoca e bebida.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Menu.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Prices&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Prices&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Exibe os preços dos ingressos do cinema, separado por tipo de sessão e sala.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Prices.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugin Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Utilizado para indicar qual tela do plugin deve ser exibida. Este plugin possui apenas telas 1x1.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Videowall Screen</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Posição do plugin no videwall</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Version</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Versão do plugin.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Prices XML (Today)</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço da API de preços diários.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Prices XML (Weekly)</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Endereço da API de preços semanais.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Token</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Chave da API.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Seconds to page switch</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tempo pde exibição de cada página de preços.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Seconds to message switch</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tempo de exibição de cada linha da mensagem de cabeçalho.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Customer font size</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Tamanho customizado da fonte.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Hidden Cents</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Oculta os centavos dos preços.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;MixPlugins&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_MixPlugins&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Utilizado para exibir dois plugins diferentes na mesma tela. </span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Mix.jpg&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Pugins</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Seleção dos dois plugins que serão exibidos no mesmo monitor.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+    <span class="s3">&lt;li&gt;</span><span class="s2">Defina as durações (Opção exibida após a escolha dos plugins)</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;bullet&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;li&gt;</span><span class="s2">Duração da exibição de cada plugin.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;/list&gt;</span>
+    <span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+<span class="s3">&lt;chapter </span><span class="s4">title</span><span class="s5">=&quot;Inactive&quot; </span><span class="s4">id</span><span class="s5">=&quot;plugin_Inactive&quot;</span><span class="s3">&gt;</span>
+
+<span class="s2">Utilizado quando o quadrante não está em uso e não será necessário configurar nenhum plugin nele.</span>
+
+<span class="s3">&lt;/chapter&gt;</span>
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Management.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #d5b778;}
+.s4 { color: #bababa;}
+.s5 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Management.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">Management</span>
+<span class="s3">&lt;show-structure </span><span class="s4">depth</span><span class="s5">=&quot;2&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">## </span><span class="s2">Communique Settings</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;management.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Country</span>
+
+<span class="s2">Criação do país a ser utilizado no sistema.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;country.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+ <span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do país.</span><span class="s3">&lt;/li&gt;</span>
+ <span class="s3">&lt;li&gt;</span><span class="s2">Abbreviation: Sigla do país. Utiliza-se dois caracteres.</span><span class="s3">&lt;/li&gt;</span>
+ <span class="s3">&lt;li&gt;</span><span class="s2">Currency: Símbolo monetário utilizado pelo país. Esse símbolo será utilizado em todas as telas com preços.</span><span class="s3">&lt;/li&gt;</span>
+ <span class="s3">&lt;li&gt;</span><span class="s2">Language: Idioma utilizado pelo país. Esse item afeta o idioma em que os textos do player serão exibidos. Atualmente, os idiomas disponíveis são Português e Espanhol.</span>
+        <span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;country_idioma.png&quot;</span><span class="s3">/&gt;&lt;/li&gt;</span>
+ <span class="s3">&lt;li&gt;</span><span class="s2">Hour Format: Formato de hora utilizado pelo país. Esse item afeta todas as telas que exibem horários.</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;country_hour.png&quot;</span><span class="s3">/&gt;</span>
+        <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">/&gt;</span>
+        <span class="s3">&lt;li&gt;</span><span class="s2">AM/PM - 12 horas: Formato  onde às 11 da noite é representado por 11pm.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;li&gt;</span><span class="s2">Completo (Militar) - 24 horas: Formato onde às 11 da noite é representado por 23h.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;&lt;/li&gt;</span>
+
+
+<span class="s0">### </span><span class="s2">State</span>
+
+<span class="s2">Criação dos estados onde os cinemas estão localizados.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;State.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do estado.</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;state_criacao.png&quot;</span><span class="s3">/&gt;&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s0">### </span><span class="s2">Locate</span>
+
+<span class="s2">Localização dentro do cinema onde a máquina está localizada.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Locate.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do local.</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Locate_name.png&quot;</span><span class="s3">/&gt;&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s0">### </span><span class="s2">Media Type</span>
+
+<span class="s2">Tipificação dada às mídias que serão upadas no sistema.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;MediaType.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do Media Type.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Abbreviation: Abreviação do nome. Utiliza-se dois caracteres.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Counting: Item de contagem da mídia. Quando ativo, faz com que o player salve a quantidade de vezes que aquele tipo de mídia é reproduzido.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;MediaType_criacao.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Player Category</span>
+
+<span class="s2">Categorização do player de acordo com o tipo de cinema ou conteúdo.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Category.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome da categoria.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Description: Descrição da categoria.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Category_criacao.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Clients</span>
+
+<span class="s2">Criação de clientes </span><span class="s1">(</span><span class="s2">incluir uma descriao melhor</span><span class="s1">)</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do cliente.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Description: Descrição do cliente.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_client.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Subplaylists</span>
+
+<span class="s2">Criação de subplaylists. Serão utilizadas para agrupar conteúdos do mesmo tipo em playlists e alternar esses conteúdos com os itens fora da subplaylist.</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_subplaylist.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome da sublaylist.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Description: Descrição da subplaylist.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_client.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Periods</span>
+
+<span class="s2">Criação de período. Configuração utilizada para que a mídia seja exibida apenas dentro do período selecionado.</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_pediods.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;decimal&quot;</span><span class="s3">&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Name: Nome do período.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;li&gt;</span><span class="s2">Hours: Duração do período. Deve ser configurado considerando o horário militar.</span>
+    <span class="s3">&lt;list </span><span class="s4">type</span><span class="s5">=&quot;alpha-lower&quot;</span><span class="s3">&gt;</span>
+        <span class="s3">&lt;li&gt;</span><span class="s2">Start: Horário em que a mídia começará a ser exibida.</span><span class="s3">&lt;/li&gt;</span>
+        <span class="s3">&lt;li&gt;</span><span class="s2">End: Horário em que a mídia deixará de ser exibida.</span><span class="s3">&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;&lt;/li&gt;</span>
+<span class="s3">&lt;/list&gt;</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;periods_criacao.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Version</span>
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Version.png&quot;</span><span class="s3">/&gt;</span>
+<span class="s2">adicionar dps</span>
+
+<span class="s0">## </span><span class="s2">MogPlayer Settings</span>
+<span class="s0">### </span><span class="s2">Config Global Parameters</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_mog.png&quot;</span><span class="s3">/&gt;</span>
+
+<span class="s0">### </span><span class="s2">Upload</span>
+
+<span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;Management_mogupload.png&quot;</span><span class="s3">/&gt;</span></pre>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>Media.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #d5b778;}
+.s4 { color: #bababa;}
+.s5 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Media.md</font>
+</center></td></tr></table>
+<pre><span class="s0"># </span><span class="s2">Media</span>
+
+<span class="s2">O Communique permite o upload e gerenciamento de diversos tipos de mídia, essenciais para a exibição de conteúdo nas telas dos cinemas.</span>
+
+<span class="s0">## </span><span class="s2">Lista de Mídias</span>
+
+<span class="s2">Tela de cadastro de mídia, utilize o menu lateral e navegue até </span><span class="s1">&lt;</span><span class="s2">ui-path</span><span class="s1">&gt;</span><span class="s2">Media</span><span class="s1">&lt;</span><span class="s2">/ui-path</span><span class="s1">&gt;</span><span class="s2">.</span>
+
+<span class="s1">![</span><span class="s2">Lista de Medias</span><span class="s1">](</span><span class="s2">media.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">450</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">media.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s2">Interface para cadastrar mídias  no sistema, é possível editar, deletar e visualizar os detalhes de cada mídia.</span>
+
+<span class="s2">Filtro para buscar uma mídia específica por nome, tipo de mídia e cliente.</span>
+
+<span class="s0">## </span><span class="s2">Cadastro de Mídia</span>
+
+<span class="s0">#### </span><span class="s2">Informação da Mídia</span>
+
+<span class="s3">&lt;procedure  </span><span class="s4">id</span><span class="s5">=&quot;information-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tipo de Mídia:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tipo do arquivo de mídia (por exemplo, MP4, JPG).</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Formato:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Formato da mídia (por exemplo, 1x1).</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Resolução do arquivo (por exemplo, 1920x1080).</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Duração:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Duração do vídeo (por exemplo, 11 segundos).</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Cliente:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do cliente associado à mídia. (Cinemark, Flix Media, Flix Lab) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Código:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Código de identificação da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Nome do Arquivo:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome completo do arquivo de mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tamanho do arquivo em MB ou KB.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Data de Aprovação:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Data e hora em que a mídia foi aprovada, incluindo o nome do responsável pela aprovação.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Data de Upload:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Data e hora em que a mídia foi enviada ao sistema, incluindo o nome do responsável pelo upload. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Media Type:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Categoria da mídia (Institucional, Evento, Combos Promocionais, Poster, Campaign, Still, Combo Video, Prices, Trailer, Inovaçoes, Showtimes, Layer, Prime, Bistro, Informative).</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s2">Selecione uma mídia para ver detalhes mais completos ou deletar clicando no ícone de lixeira.</span>
+
+<span class="s1">![</span><span class="s2">Detalhes</span><span class="s1">](</span><span class="s2">media-detalhes.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">450</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">media-detalhes.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s0">## </span><span class="s2">Limitadores de Mídia</span>
+
+<span class="s1">![</span><span class="s2">Detalhes</span><span class="s1">](</span><span class="s2">limitador.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">250</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">limitador.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s2">O Communique possui diversas funcionalidades para limitar o upload de certos tipos de arquivos, garantindo que apenas mídias que atendam aos critérios específicos sejam aceitas no sistema.</span>
+
+<span class="s3">&lt;procedure  </span><span class="s4">id</span><span class="s5">=&quot;limitation-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho Máximo de Mídia:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Arquivos de mídia não podem exceder 40MB.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho Máximo de Poster:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Arquivos de poster não podem exceder 300KB.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução Máxima de Poster:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Posteres devem ter no máximo 1280x870 pixels.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho Máximo de Trailer:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Arquivos de trailer não podem exceder 20MB.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução Permitida para Trailer:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Trailers devem ser HD (1280x720) ou FULL HD (1920x1080). </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Arquivos com Áudio:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Todos os arquivos de mídia </span><span class="s3">&lt;ui-path&gt;</span><span class="s2">não</span><span class="s3">&lt;/ui-path&gt; </span><span class="s2">devem conter áudio. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s0">## </span><span class="s2">Limbo</span>
+
+<span class="s2">O Limbo armazena todas as mídias que foram deletadas do sistema, permitindo a restauração dessas mídias quando necessário.</span>
+
+<span class="s1">![</span><span class="s2">Detalhes</span><span class="s1">](</span><span class="s2">limbo.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">450</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">limbo.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s0">#### </span><span class="s2">Funcionalidades do Limbo</span>
+
+<span class="s3">&lt;procedure  </span><span class="s4">id</span><span class="s5">=&quot;limbo-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;</span><span class="s2">Exibe todas as mídias que foram removidas do sistema.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;</span><span class="s2">Detalhes exibidos: tipo de mídia, cliente, formato, data de aprovação, data de upload e categoria.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;</span><span class="s2">Permite restaurar mídias deletadas de volta ao sistema ao clicar em restore.</span><span class="s3">&lt;/p&gt;</span>
+        <span class="s3">&lt;img </span><span class="s4">src</span><span class="s5">=&quot;restore.png&quot; </span><span class="s4">alt</span><span class="s5">=&quot;Montagem&quot; </span><span class="s4">width</span><span class="s5">=&quot;100&quot; </span><span class="s4">preview-src</span><span class="s5">=&quot;restore.png&quot; </span><span class="s4">border-effect</span><span class="s5">=&quot;line&quot;</span><span class="s3">/&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s0">## </span><span class="s2">Upload de Mídia</span>
+
+<span class="s2">O Communique permite o upload de diversos tipos de mídias essenciais para a exibição de conteúdo nas telas dos cinemas.</span>
+
+<span class="s1">![</span><span class="s2">Detalhes</span><span class="s1">](</span><span class="s2">upload.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">450</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">upload.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s2">A interface de upload é dividida em várias seções, cada uma correspondente a um tipo específico de mídia</span><span class="s1">:</span>
+
+<span class="s0">#### </span><span class="s2">Upload de Poster</span>
+
+<span class="s2">Para fazer upload de um poster, clique em </span><span class="s1">&quot;</span><span class="s2">poster</span><span class="s1">&quot;</span><span class="s2">, selecione o poster a ser enviado e clique na seta para baixo.</span>
+
+<span class="s1">![</span><span class="s2">Detalhes</span><span class="s1">](</span><span class="s2">detalhes_poster.png</span><span class="s1">)</span><span class="s2">{ width=</span><span class="s1">&quot;</span><span class="s2">300</span><span class="s1">&quot; </span><span class="s2">border-effect=</span><span class="s1">&quot;</span><span class="s2">line</span><span class="s1">&quot; </span><span class="s2">preview-src=</span><span class="s1">&quot;</span><span class="s2">detalhes_poster.png</span><span class="s1">&quot; </span><span class="s2">}</span>
+
+<span class="s3">&lt;procedure  </span><span class="s4">id</span><span class="s5">=&quot;upload-poster-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FILE NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do arquivo de poster selecionado para upload. E2400066500000.jpg </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Resolução do arquivo de poster em pixels. Limite: 1280X870px </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tamanho do arquivo em KB. Limite: 300KB </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Formato:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Formato da mídia. Selecione para escolher outros formatos. (1x1, 2x1, 3x1, 4x1, ..) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Duração:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Duração do vídeo (se aplicável). </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FINAL NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome final a ser dado ao arquivo de mídia, exibido na lista de mídias. Remova a extensão do arquivo. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">ORIENTATION:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Orientação do poster. H (Horizontal) / V (Vertical) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CATEGORY:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Categoria da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CLIENT:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do cliente associado à mídia.. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Code:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Código de identificação da mídia, com prefixo &quot;p&quot;. PE2400066500000.jpg </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">SEND:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Botão para enviar o poster após preencher todas as informações necessárias. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CROP:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Opção para recortar a imagem, se necessário.</span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">COMPRESS:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Opção para comprimir a imagem, se necessário. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s0">#### </span><span class="s2">Upload de Trailer</span>
+
+<span class="s2">Para fazer upload de um trailer, clique em </span><span class="s1">&quot;</span><span class="s2">trailer</span><span class="s1">&quot;</span><span class="s2">, selecione o trailer a ser enviado e</span>
+<span class="s2">clique na seta para baixo.</span>
+
+<span class="s3">&lt;procedure </span><span class="s4">id</span><span class="s5">=&quot;upload-trailer-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FILE NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do arquivo de trailer selecionado para upload. Ex: Garfield.mp4 </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Resolução do arquivo de trailer em pixels. Limite: HD ou FULL HD </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tamanho do arquivo em MB. Limite: 20MB </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Formato:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Formato da mídia. Selecione para escolher outros formatos. (1x1, 2x1, 3x1, 4x1, ..) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Duração:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Duração do vídeo. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FINAL NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome final a ser dado ao arquivo de mídia, exibido na lista de mídias. Remova a extensão do arquivo. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">ORIENTATION:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Orientação do trailer. H (Horizontal) / V (Vertical) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CATEGORY:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Categoria da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CLIENT:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do cliente associado à mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Code:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Código de identificação da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">COMPRESS:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Opção para comprimir o trailer, se necessário. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Câmera:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite visualizar uma prévia do trailer. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Lixeira:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite deletar a mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s0">#### </span><span class="s2">Upload de Layer</span>
+
+<span class="s2">Para fazer upload de um layer, clique em </span><span class="s1">&quot;</span><span class="s2">layer</span><span class="s1">&quot;</span><span class="s2">, selecione o layer a ser enviado e</span>
+<span class="s2">clique na seta para baixo.</span>
+
+<span class="s3">&lt;procedure </span><span class="s4">id</span><span class="s5">=&quot;upload-layer-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FILE NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do arquivo de layer selecionado para upload. Ex: AI HOJE 1x1 (2x1) 1920x540.mp4 </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Resolução do arquivo de layer em pixels. Limite: HD ou FULL HD </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tamanho do arquivo em MB. Limite: 20MB </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Formato:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Formato da mídia. Selecione para escolher outros formatos. (1x1, 2x1, 3x1, 4x1, ..) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Duração:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Duração do layer. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FINAL NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome final a ser dado ao arquivo de mídia, exibido na lista de mídias. Remova a extensão do arquivo. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">ORIENTATION:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Orientação do layer. H (Horizontal) / V (Vertical) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CATEGORY:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Categoria da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CLIENT:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do cliente associado à mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Code:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Código de identificação da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">COMPRESS:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Opção para comprimir o layer, se necessário. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Câmera:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite visualizar uma prévia do layer. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Lixeira:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite deletar a mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span>
+
+<span class="s0">#### </span><span class="s2">Upload de Videos</span>
+
+<span class="s2">Para fazer upload de um layer, clique em </span><span class="s1">&quot;</span><span class="s2">layer</span><span class="s1">&quot;</span><span class="s2">, selecione o layer a ser enviado e</span>
+<span class="s2">clique na seta para baixo.</span>
+
+<span class="s3">&lt;procedure </span><span class="s4">id</span><span class="s5">=&quot;upload-video-options&quot;</span><span class="s3">&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FILE NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do arquivo de video selecionado para upload. Ex: BR Prime 3x1 Cafe 230906 </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Resolução:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Resolução do arquivo do video em pixels. Limite: HD ou FULL HD </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Tamanho:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Tamanho do arquivo em MB. Limite: 20MB </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Formato:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Formato da mídia. Selecione para escolher outros formatos. (1x1, 2x1, 3x1, 4x1, ..) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Duração:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Duração do video. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">FINAL NAME:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome final a ser dado ao arquivo de mídia, exibido na lista de mídias. Remova a extensão do arquivo. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">ORIENTATION:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Orientação do video. H (Horizontal) / V (Vertical) </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CATEGORY:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Categoria da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">CLIENT:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Nome do cliente associado à mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Code:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Código de identificação da mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt; </span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">COMPRESS:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Opção para comprimir o video, se necessário. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Câmera:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite visualizar uma prévia do video. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+    <span class="s3">&lt;step&gt;</span>
+        <span class="s3">&lt;p&gt;&lt;b&gt;</span><span class="s2">Ícone de Lixeira:</span><span class="s3">&lt;/b&gt; </span><span class="s2">Permite deletar a mídia. </span><span class="s3">&lt;/p&gt;</span>
+    <span class="s3">&lt;/step&gt;</span>
+<span class="s3">&lt;/procedure&gt;</span></pre>
+</body>
+</html>
