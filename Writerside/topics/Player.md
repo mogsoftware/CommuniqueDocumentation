@@ -15,6 +15,7 @@ Uma janela abrirá para que as informações do novo player sejam preenchidas.
 
 #### Information
 
+<p></p>
 <list type="decimal" start="1">
     <li>Nome
         <list type="bullet">
@@ -51,7 +52,7 @@ Uma janela abrirá para que as informações do novo player sejam preenchidas.
 #### Display
 
 
-
+<p></p>
 <list type="decimal" start="1">
     <li>Monitor
         <list type="bullet">
@@ -97,7 +98,7 @@ Definição de quantas máquinas e/ou saídas de vídeo serão utilizadas por es
 É necessário que haja ao menos uma máquina e uma saída de vídeo.
 
 #### Options
-
+<p></p>
 <list type="decimal" start="1">
     <li>Prevent 
         <list type="bullet">
@@ -140,7 +141,7 @@ Definição de quantas máquinas e/ou saídas de vídeo serão utilizadas por es
 Configuração de cartelera/grade do player. Afeta os plugins Showtimes, Boxoffice e Postercase.
 
 <img src="Settings.jpg"/>
-
+<p></p>
 <list type="decimal">
     <li>Grid Path
         <list type="bullet">
@@ -208,7 +209,7 @@ Exibe o horário e tipo das sessões e elas podem ser ordenadas alfabeticamente,
 Tembém é possível filtrar para que exiba apenas sessões regulares ou prime.
 
 <img src="Showtimes.jpg" alt="criação" width="450"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugin Screen
         <list type="bullet">
@@ -258,7 +259,7 @@ Tembém é possível filtrar para que exiba apenas sessões regulares ou prime.
 Exibe o horário e tipo das sessões com o poster do filme.
 
 <img src="Boxoffice.jpg" alt="criação" width="450"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugin Screen
         <list type="bullet">
@@ -311,7 +312,7 @@ Exibe o horário e tipo das sessões com o poster do filme.
 Utilizado para exibição de vídeos ou imagens programados em uma playlist. Este plugin pode ser configurado nos formatos 1x1, 2x1, 3x1 e 4x1.
     
 <img src="Player.jpg" alt="criação" width="450"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugin Screen
         <list type="bullet">
@@ -380,7 +381,7 @@ Possui dois layouts utilizados de maneira diferente.<br/>
 **Postercase**: Utilizado nas portas de sala dos cinemas, exibe o poster do filme que está em exibição naquela sala.<br/>        
 
 <img src="Postercase.jpg" alt="criação" width="450"/>
-
+<p></p>
 <list type="decimal">
     <li>Version
         <list type="bullet">
@@ -408,7 +409,7 @@ Possui dois layouts utilizados de maneira diferente.<br/>
 <br/>No formato Presentando, exibe filmes em cartaz do cinema com os horários das sessões.No formato Proximamente, exibe filmes que ainda serão lançados e não possui horário.
 
 <img src="Postercase2.jpg" alt="criação" width="450"/>
-
+<p></p>
 <list type="decimal">
     <li>Version
         <list type="bullet">
@@ -450,7 +451,7 @@ Exibe os combos de pipoca do cinema. Pode ser configurado para exibir o conteúd
 Na versão 1.0 do plugin, é necessário que exista uma playlist para exibição dos vídeos de combo.
 
 <img src="Combos.jpg"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugin Screen
         <list type="bullet">
@@ -554,7 +555,7 @@ Exibe os demais itens da bomboniere do cinema, além dos preços avulsos de pipo
 Exibe os preços dos ingressos do cinema, separado por tipo de sessão e sala.
 
 <img src="Prices.jpg"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugin Screen
         <list type="bullet">
@@ -615,7 +616,7 @@ Exibe os preços dos ingressos do cinema, separado por tipo de sessão e sala.
 Utilizado para exibir dois plugins diferentes na mesma tela. 
 
 <img src="Mix.jpg"/>
-
+<p></p>
 <list type="decimal">
     <li>Pugins
         <list type="bullet">
