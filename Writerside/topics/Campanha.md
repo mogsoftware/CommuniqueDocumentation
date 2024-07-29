@@ -1,7 +1,7 @@
-# Campanha
+# Campaign
 
-Campanhas são anúncios feitos por empresas terceiras nas telas dos cinemas. Elas tem um período de exibição previamente combinado e suas exibições diárias precisam ser contabilizadas.
-Para acessar a tela de campanha, é necessário ir ao menu do Communique e clicar em Campaign.
+<a>Campanhas são anúncios feitos por empresas terceiras nas telas dos cinemas. Elas tem um período de exibição previamente combinado e suas exibições diárias precisam ser contabilizadas.
+Para acessar a tela de campanha, é necessário ir ao menu do Communique e clicar em Campaign.</a>
 
 <video src="../videos/Campanha.mp4" xmlns="" preview-src="acesso-campanha.png"/>
 
