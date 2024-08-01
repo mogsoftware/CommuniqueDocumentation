@@ -145,20 +145,19 @@ Para fazer upload de um poster, clique em "poster", selecione o poster a ser env
     </step>
     <step>
         <p><b>CLIENT:</b> Nome do cliente associado à mídia.. </p>
-    </step> 
+    </step>
     <step>
         <p><b>Code:</b> Código de identificação da mídia, com prefixo "p". PE2400066500000.jpg </p>
-    </step> 
+    </step>
     <step>
         <p><b>SEND:</b> Botão para enviar o poster após preencher todas as informações necessárias. </p>
-    </step> 
+    </step>
     <step>
         <p><b>CROP:</b> Opção para recortar a imagem, se necessário.</p>
-    </step> 
-    <step>
-        <p><b>COMPRESS:</b> Opção para comprimir a imagem, se necessário. </p>
-    </step> 
+    </step>
 </procedure>
+
+#### Código de Poster
 
 #### Upload de Trailer
 
@@ -192,12 +191,9 @@ clique na seta para baixo.
     </step>
     <step>
         <p><b>CLIENT:</b> Nome do cliente associado à mídia. </p>
-    </step> 
+    </step>
     <step>
         <p><b>Code:</b> Código de identificação da mídia. </p>
-    </step> 
-    <step>
-        <p><b>COMPRESS:</b> Opção para comprimir o trailer, se necessário. </p>
     </step>
     <step>
         <p><b>Ícone de Câmera:</b> Permite visualizar uma prévia do trailer. </p>
@@ -239,12 +235,9 @@ clique na seta para baixo.
     </step>
     <step>
         <p><b>CLIENT:</b> Nome do cliente associado à mídia. </p>
-    </step> 
+    </step>
     <step>
         <p><b>Code:</b> Código de identificação da mídia. </p>
-    </step> 
-    <step>
-        <p><b>COMPRESS:</b> Opção para comprimir o layer, se necessário. </p>
     </step>
     <step>
         <p><b>Ícone de Câmera:</b> Permite visualizar uma prévia do layer. </p>
@@ -286,12 +279,9 @@ clique na seta para baixo.
     </step>
     <step>
         <p><b>CLIENT:</b> Nome do cliente associado à mídia. </p>
-    </step> 
+    </step>
     <step>
         <p><b>Code:</b> Código de identificação da mídia. </p>
-    </step> 
-    <step>
-        <p><b>COMPRESS:</b> Opção para comprimir o video, se necessário. </p>
     </step>
     <step>
         <p><b>Ícone de Câmera:</b> Permite visualizar uma prévia do video. </p>
@@ -300,3 +290,9 @@ clique na seta para baixo.
         <p><b>Ícone de Lixeira:</b> Permite deletar a mídia. </p>
     </step>
 </procedure>
+
+#### Compress
+
+O botão "Compress" é utilizado para reduzir o tamanho dos arquivos de mídia antes do upload.
+
+![Detalhes](compress.png){ width="300" border-effect="line" preview-src="compress.png" }
