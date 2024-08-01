@@ -136,7 +136,7 @@ A primeira tela do plugin leva o tamanho do vídeo nos campos *Player Width* e *
 #### PLAYER 2X1 {id="player-2x1_2"}
 
 <p></p><img src="2X1-linha.png" width="600" preview-src="2X1-linha.png"/>
-<p></p><img src="PLAYER2X1.png" width="600" preview-src="PLAYER2X1.png"/>
+<p></p><img src="player2x1.png" width="600" preview-src="player2x1.png"/>
 
 #### PLAYER 3X1 {id="player-3x1_2"}
 
