@@ -87,65 +87,127 @@ Ex.: Em um player com 4 BoxOffice, o *Plugin Screen* será de 1 à 4.
 
 Diferentes combinações de layout são permitidas e, no caso de mais de um tipo de layout selecionado, o player adapta a quantidade de filmes/sessões de acordo com a quantidade de telas disponiveis.
 
-<img src="BX1.png" width="600"/> *BoxOffice 1 Filme*
+<img src="BX1.png" width="600"/>*BoxOffice 1 Filme*
 
-<img src="BX3.png" width="600"/> *BoxOffice 3 Filmes*
+<img src="BX3.png" width="600"/>*BoxOffice 3 Filmes*
 
-<img src="BX4.png" width="600"/> *BoxOffice 4 Filmes*
+<img src="BX4.png" width="600"/>*BoxOffice 4 Filmes*
 
-<img src="BX8.png" width="600"/> *BoxOffice 8 Filmes*
+<img src="BX8.png" width="600"/>*BoxOffice 8 Filmes*
 
 </chapter>
 
+
 <chapter title="PLAYER" id="plugin_player">
 
-Quando na mesma saída de vídeo:
-
+**Quando na mesma saída de vídeo:**
 
 #### PLAYER 1X1
 
 Os campos do plugin são preenchidos com o número 1, com exceção do *Plugin Screen*, que sempre vai ser preenchido com a posição da tela no videowall. 
-<img src="config_pl1x1.png" width="600"/>
-<img src="PL1X1.png" width="600"/>
+<p></p><img src="config_pl1x1.png" width="600"/>
+<p></p><img src="PL1X1.png" width="600"/>
 
-#### PLAYER 2X1
+#### PLAYER 2X1 {id="player-2x1_1"}
 
 Os campos *Player Width* e *Player Height*, na primeira tela do plugin, são preenchidos de acordo com o tamanho do vídeo que será exibido por ele.
 Na segunda tela do plugin, altera-se o campo *Plugin Screen* e *Screen Col* para indicar ao player que ele deve exibir o segundo quadrante do vídeo e é necessário ativar o botão *Hide on Player*.
-<img src="config_pl2x1.png" width="600" preview-src="config_pl2x1.png"/>
-<img src="PLAYER2X1.png" width="600" preview-src="PLAYER2X1.png"/>
+<p></p><img src="config_pl2x1.png" width="600" preview-src="config_pl2x1.png"/>
+<p></p><img src="PLAYER2X1.png" width="600" preview-src="PLAYER2X1.png"/>
 
-#### PLAYER 3X1
+#### PLAYER 3X1 {id="player-3x1_1"}
 
 Os campos são preenchidos como no formato 2x1, porém a primeira tela do plugin recebe em *Extendeds Monitors* o número da tela que será uma extensão dela.
 Já a terceira tela, além dos campos de *Plugin Screen* e *Screen Col*, é necessário ativar o botão *It's an extension* para indicar que aquela tela é uma extensão do monitor que será inserido no campo *Extended Monitors*.
-<img src="config_pl3x1.png" width="600" preview-src="config_pl3x1.png"/>
-<img src="PLAYER3X1.png" width="600" preview-src="PLAYER3X1.png"/>
+<p></p><img src="config_pl3x1.png" width="600" preview-src="config_pl3x1.png"/>
+<p></p><img src="PLAYER3X1.png" width="600" preview-src="PLAYER3X1.png"/>
 
-#### PLAYER 4X1
-<img src="config_pl4x1.png" width="600" preview-src="config_pl4x1.png"/>
+#### PLAYER 4X1 {id="player-4x1_1"}
 
-Quando em diferentes saídas de vídeo, mas estão na mesma linha:
+Os campos *Player Width* e *Player Height* são preenchidos para posicionar o vídeo como um 2x2 e os demais plugins recebem a posição do vídeo e *Player Col* de acordo com o quadrante do vídeo, além do *Hide on player* ativado.
+<p></p><img src="config_pl4x1.png" width="600" preview-src="config_pl4x1.png"/>
+<p></p><img src="PLAYER4x1.png" width="600" preview-src="PLAYER4x1.png"/>
 
-*Player 2x1*
+<br/><br/>
+**Quando em diferentes saídas de vídeo, mas estão na mesma linha:**
 
-*Player 3x1*
+A primeira tela do plugin leva o tamanho do vídeo nos campos *Player Width* e *Player Height* e nas demais são preenchidos os campos *Plugin Screen* e *Player Col* de acordo com o quadrante do vídeo e com o *Hide on player* ativado.
 
-*Player 4x1*
+#### PLAYER 2X1 {id="player-2x1_2"}
 
-Quando em diferentes saídas de vídeo, mas em linhas diferentes:
+<p></p><img src="2X1-linha.png" width="600" preview-src="2X1-linha.png"/>
+<p></p><img src="PLAYER2X1.png" width="600" preview-src="PLAYER2X1.png"/>
 
-*Player 2x1*
+#### PLAYER 3X1 {id="player-3x1_2"}
 
-*Player 3x1*
+<p></p><img src="3X1-linha.png" width="600" preview-src="3X1-linha.png"/>
+<p></p><img src="PLAYER3X1-linha.png" width="600" preview-src="PLAYER3X1-linha.png"/>
 
-*Player 4x1*
+#### PLAYER 4X1 {id="player-4x1_2"}
+
+<p></p><img src="4X1-linha.png" width="600" preview-src="4X1-linha.png"/>
+<p></p><img src="PLAYER4X1-linha.png" width="600" preview-src="PLAYER4X1-linha.png"/>
+
+<br/><br/>
+**Quando em diferentes saídas de vídeo, mas em linhas diferentes:**
+
+#### PLAYER 2X1 {id="player-2x1_3"}
+
+Os campos de *Screen Line*, *Screen Col*, *Player Width* e *Player Height*, da primera tela do plugin, são preenchidos com 1 e o *Extendeds Monitors* recebe o número do monitor que será uma extensão dela.
+Já na segunda tela, o conteúdo é preenchido conforme os demais 2x1, porém com o *It's an extension* ativo e o *Extendeds Monitors* recebe o número do monitor referente à primeira tela do plugin.
+
+<p></p><img src="2X1-Slinha.png" width="600" preview-src="2X1-Slinha.png"/>
+<p></p><img src="2X1-quebra.png" width="600" preview-src="2X1-quebra.png"/>
+
+#### PLAYER 3X1 {id="player-3x1_3"}
+
+Na primeira tela, os campos *Screen Line* e *Screen Col* recebem o número e os campos *Player Width* e *Player Height* são preenchidos indicando que aquela seção é 2x1. O campo *Extendeds Monitors* recebe o número da tela que será uma extensão dela, neste caso, a primeira tela após a quebra de linha do plugin, que na imagem abaixo é o monitor 3.
+A segunda tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o segundo quadrante do vídeo e o *Hide on player* precisa estar ativado.
+Por fim, a terceira tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o terceiro quadrante do vídeo, o campo *Extendeds Monitors* recebe o número do monitor referente à primeira tela do plugin e ativa-se o *It's an extension*.
+
+<p></p><img src="3X1-Slinha1.png" width="600" preview-src="3X1-Slinha1.png"/>
+<p></p><img src="3X1-quebra1.png" width="600" preview-src="3X1-quebra1.png"/>
+<br/><br/>
+
+Os campos de *Screen Line*, *Screen Col*, *Player Width* e *Player Height*, da primera tela do plugin, são preenchidos com 1 e o *Extendeds Monitors* recebe o número do monitor que será uma extensão dela, que na imagem abaixo é o monitor 3.
+A segunda tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o segundo quadrante do vídeo e os campos *Player Width* e *Player Height* indicando que aquela seção é 2x1. O campo *Extendeds Monitors* recebe o número do monitor referente à primeira tela do plugin e ativa-se o *It's an extension*.
+Por fim, a terceira tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o terceiro quadrante do vídeo e com o *Hide on player* ativado.
+<p></p><img src="3X1-Slinha2.png" width="600" preview-src="3X1-Slinha2.png"/>
+<p></p><img src="3X1-quebra2.png" width="600" preview-src="3X1-quebra2.png"/>
+
+#### PLAYER 4X1 {id="player-4x1_4"}
+
+Na primeira tela, os campos *Screen Line* e *Screen Col* recebem o número e os campos *Player Width* e *Player Height* são preenchidos indicando que aquela seção é 2x1. O campo *Extendeds Monitors* recebe o número da tela que será uma extensão dela, neste caso, a primeira tela após a quebra de linha do plugin, que na imagem abaixo é o monitor 3.
+A segunda tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o segundo quadrante do vídeo e o *Hide on player* precisa estar ativado.
+A terceira tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o terceiro quadrante do vídeo e os campos *Player Width* e *Player Height* indicando que aquela seção é 2x1. O campo *Extendeds Monitors* recebe o número do monitor referente à primeira tela do plugin e ativa-se o *It's an extension*.
+Por fim, a quarta tela é preenchida com os campos *Screen Line* e *Screen Col* indicando que aquele será o terceiro quadrante do vídeo e com o *Hide on player* ativado.
+
+<p></p><img src="4X1-Slinha.png" width="600" preview-src="4X1-Slinha.png"/>
+<p></p><img src="4X1-quebra.png" width="600" preview-src="4X1-quebra.png"/>
 
 </chapter>
 
-<list type="decimal" start="4">
-<li>Postercase</li>
-<li>Combos</li>
-<li>Menu</li>
-<li>Prices</li>
-</list>
+
+<chapter title="POSTERCASE" id="plugin_postercase">
+
+amanha de manha irei dorir muitosaklsfdjlksad
+
+</chapter>
+
+<chapter title="COMBOS" id="plugin_combos">
+
+aa
+
+</chapter>
+
+<chapter title="MENU" id="plugin_menu">
+
+aa
+
+</chapter>
+
+<chapter title="PRICES" id="plugin_prices">
+
+aa
+
+</chapter>
