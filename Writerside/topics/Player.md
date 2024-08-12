@@ -337,22 +337,22 @@ Exemplo: Em um vídeo 4x1, a primeira tela do plugin receberá o número 4 no *S
     </li>
     <li>Screen Line
         <list type="bullet">
-            <li>aaa</li>
+            <li>Número da linha do vídeo que será exibida pela tela que está sendo programada.</li>
         </list>
     </li>
     <li>Screen Col
         <list type="bullet">
-            <li>aaa</li>
+            <li>Número da coluna do vídeo que será exibida pela tela que está sendo programada.</li>
         </list>
     </li>
     <li>Player Width
         <list type="bullet">
-            <li>aaa</li>
+            <li>Largura do player de vídeo.</li>
         </list>
     </li>
     <li>Player Height
         <list type="bullet">
-            <li>aaa</li>
+            <li>Altura do player de vídeo.</li>
         </list>
     </li>
     <li>Hide on Player
@@ -466,6 +466,11 @@ Na versão 1.0 do plugin, é necessário que exista uma playlist para exibição
     <li>Version
         <list type="bullet">
             <li>Versão do plugin.</li>
+        </list>
+    </li>
+    <li>Width
+        <list type="bullet">
+            <li>Largura da tela de combos. Esse campo sempre utilizará o número 1 na versão 2.0, mesmo no formato 2x1.</li>
         </list>
     </li>
     <li>Is extends
@@ -639,3 +644,38 @@ Utilizado quando o quadrante não está em uso e não será necessário configur
 </chapter>
 
 # Player Groups
+
+Agrupamento de players para programação de mídias e campanhas.
+
+<p></p>
+
+<img src="CriarPlayergroup.png" width="600"/>
+
+<list type="decimal">
+<li>Name
+    <list type="bullet">
+        <li>Nome do grupo.</li>
+    </list>
+</li>
+<li>Description
+    <list type="bullet">
+        <li>Descrição do grupo ou conteúdo.</li>
+    </list> 
+</li>
+<li>Duplicate
+    <list>
+    <li><img src="duplicaPG.png" width="20"/> Duplica um playergroup já existente</li>
+    </list>
+</li>
+<li>Delete
+    <list type="bullet">
+        <li><img src="deletePG.png" width="20"/>Deleta o playergroup</li>
+    </list>
+</li>
+</list>
+
+O recurso conta com filtros por nome de player, cinema, locate e categoria.
+Ao clicar em um player da lista *Players*, ele é automaticamente enviado para a lista *Players selected*. Também é possível utilizar o botão <img src="idaPG.png" width="20"/> para que todos os players filtrados sejam eviados para a lista da direita.
+Ao clicar em <img src="voltaPG.png" width="20"/>, os players saem da lista de selecionados e voltam para a lista geral.
+
+<img src="selecaoPlayergroup.png" width="600"/>
