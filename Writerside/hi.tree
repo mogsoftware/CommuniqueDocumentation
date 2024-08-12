@@ -14,7 +14,7 @@
         <toc-element topic="Player.md"/>
         <toc-element topic="Media.md"/>
         <toc-element topic="Campanha.md"/>
-    </toc-element>
-    <toc-element topic="Reports.md"/>
-    <toc-element topic="Playlists.md"/>
+    	<toc-element topic="Reports.md"/>
+    	<toc-element topic="Playlists.md"/>
+	<toc-element topic="Formatos.md"/>
 </instance-profile>
