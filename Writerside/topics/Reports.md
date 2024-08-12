@@ -142,3 +142,405 @@ Exemplos variam desde um player único conectado a vários monitores até config
         <p><b>Sync Config:</b> status que exibe se o sync de config esta ativo. </p>
     </step>
 </procedure>
+
+## Report Combos
+
+<img src="report-combos.png" alt="Montagem" width="750" border-effect="line" preview-src="report-combos.png"/>
+
+<procedure id="filter-combos">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Products:</b> permite filtrar por todas as opções de combo ou um combo específico.</p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+<img src="report-combos2.png" alt="Montagem" width="750" border-effect="line" preview-src="report-combos2.png"/>
+
+<procedure id="report-combos2">
+    <step>
+        <p><b>Theater:</b> código e nome do teatro. </p>
+    </step>
+   <step>
+        <p><b>Code:</b> código do combo. </p>
+    </step>
+    <step>
+        <p><b>Name:</b>  nome do combo. Ex: Combo G Ref Salgada </p>
+    </step>
+    <step>
+        <p><b>Price:</b> preço do combo. </p>
+    </step>
+    <step>
+        <p><b>Last Update:</b>  ultimo horario e dia da atualização do combo. </p>
+    </step>
+</procedure>
+
+## Report Campaign
+
+<img src="report-campaign.png" alt="Montagem" width="750" border-effect="line" preview-src="report-campaign.png"/>
+
+<procedure id="filter-campaign">
+    <step>
+        <p><b>Filtro por Advertiser:</b> permite filtrar por um ou vários advertisers. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Campaign:</b> permite filtrar por uma campanha especifica dentre as disponiveis no advertiser.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b>: permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+<img src="report-campaign2.png" alt="Montagem" width="750" border-effect="line" preview-src="report-campaign2.png"/>
+
+<procedure id="filter-campaign2">
+    <step>
+        <p><b>Barra Superior:</b> exibe os logos dos owners.</p>
+    </step>
+    <step>
+        <p><b>Lateral Esquerda:</b></p>
+        <ul>
+            <li><b>Nome da Campanha:</b> Ex: BRADESCO PRIME</li>
+            <li><b>Nome da Mídia:</b> Ex: Benefícios Prime Cartões Bradesco</li>
+            <li><b>Tempo de Exibição da Campanha:</b> Ex: 10/09/2023 - 31/12/2023 (112 dias)</li>
+            <li><b>Status:</b> Status atual da campanha: Ex: finished</li>
+            <li><b>Advertiser:</b> Ex: BRADESCO</li>
+            <li><b>Duração da Mídia:</b> duração da mídia em segundos: Ex: 15"</li>
+        </ul>
+    </step>
+    <step>
+        <p><b>Lateral Direita:</b></p>
+        <ul>
+            <li><b>Total de Visualizações:</b> Ex: 731716 views</li>
+            <li><b>Total de Dias:</b> tempo total de dias em que a campanha foi exibida.</li>
+            <li><b>Intervalo de Datas:</b> intervalo de dias em que a campanha foi exibida.</li>
+            <li><b>Entrada da Campanha:</b> exibe o número total de teatros e players em que a campanha foi exibida.</li>
+            <li><b>Advertiser:</b> Ex: BRADESCO</li>
+            <li><b>Duração da Mídia:</b> duração da mídia em segundos: Ex: 15"</li>
+        </ul>
+    </step>
+    <step>
+        <p><b>Conteúdo Central:</b></p>
+        <ul>
+            <li><b>Teatro:</b> código e nome do teatro.</li>
+            <li><b>Player:</b> nome do player. Ex: ATM</li>
+            <li><b>Local:</b> nome do local. Ex: Snack</li>
+            <li><b>Playlist:</b> nome da playlist.</li>
+            <li><b>Formato:</b> Ex: 1x1 - Horizontal</li>
+            <li><b>Views:</b> total de reproduções da campanha.</li>
+            <li><b>AVG:</b> média de reproduções da campanha.</li>
+        </ul>
+    </step>
+</procedure>
+
+## Report Event
+
+<img src="report-event.png" alt="Montagem" width="750" border-effect="line" preview-src="report-event.png"/>
+
+<procedure id="filter-event">
+    <step>
+        <p><b>Filtro por Client:</b> permite filtrar por um ou vários clients. (Cinemark, Flix Media, Flix Lab, MOG) </p>
+    </step>
+    <step>
+        <p><b>Filtro por Event:</b> permite filtrar por um evento especifico dentre as programadas atualmente.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b>: permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Layer
+
+<img src="report-layer.png" alt="Montagem" width="750" border-effect="line" preview-src="report-layer.png"/>
+
+<procedure id="filter-layer">
+    <step>
+        <p><b>Filtro por Client:</b> permite filtrar por um ou vários clients. (Cinemark, Flix Media, Flix Lab, MOG) </p>
+    </step>
+    <step>
+        <p><b>Filtro por Event:</b> permite filtrar por um evento especifico dentre as programadas atualmente.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b>: permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Lobby
+
+<img src="report-lobby.png" alt="Montagem" width="750" border-effect="line" preview-src="report-lobby.png"/>
+
+<procedure id="filter-lobby">
+    <step>
+        <p><b>Filtro por Client:</b> permite filtrar por um ou vários clients. (Cinemark, Flix Media, Flix Lab, MOG) </p>
+    </step>
+    <step>
+        <p><b>Filtro por Event:</b> permite filtrar por um evento especifico dentre as programadas atualmente.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b>: permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Media
+
+<img src="report-media.png" alt="Montagem" width="750" border-effect="line" preview-src="report-media.png"/>
+
+<procedure id="filter-media">
+    <step>
+        <p><b>Filtro por mediaType:</b> permite filtrar por todos os media types ou media types específicos. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Format:</b> permite filtrar por todos os formatos ou alguns formatos específicos.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Client:</b> permite filtrar por um ou vários clients. (Cinemark, Flix Media, Flix Lab, MOG) </p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b>: permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Playlists
+
+<img src="report-playlists.png" alt="Montagem" width="750" border-effect="line" preview-src="report-playlists.png"/>
+
+<procedure id="filter-playlists">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="abc.png" alt="Montagem" width="60" border-effect="line"/>: permite ordenar os cinemas em ordem alfabética ou numérica. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Category:</b> permite filtrar por todas as categoria de player ou categorias específicas. Ex: All, Regular, Prime, Bistro, Videowall, XD, Lab</p>
+    </step>
+        <step>
+        <p><b>Filtro por Locate:</b> permite filtrar por todos os locates ou locates específicos. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Format:</b> permite filtrar por todos os formatos ou alguns formatos específicos.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Player:</b> permite selecionar todos os players do teatro selecionado, ou alguns players específicos.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b> permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+<img src="report-playlists2.png" alt="Montagem" width="750" border-effect="line" preview-src="report-playlists2.png"/>
+
+## Report Group Programming
+
+<img src="groupProgramming.png" alt="Montagem" width="750" border-effect="line" preview-src="groupProgramming.png"/>
+
+<procedure id="filter-group">
+    <step>
+        <p><b>Filtro por Operation:</b> permite filtrar por all, insertion ou remove. </p>
+    </step>
+    <step>
+        <p><b>Filtro por User:</b> permite filtrar por todos os usuarios ou usuarios específicos.</p>
+    </step>
+        <step>
+        <p><b>Filtro por Player Group:</b> permite filtrar por todos os player groups ou player groups específicos. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b> permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report API
+
+<img src="api.png" alt="Montagem" width="750" border-effect="line" preview-src="api.png"/>
+
+<procedure id="api">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b> permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report GO Operation
+
+<img src="go.png" alt="Montagem" width="750" border-effect="line" preview-src="go.png"/>
+
+<procedure id="go">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b> permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Player Config
+
+<img src="playerconfig.png" alt="Montagem" width="750" border-effect="line" preview-src="playerconfig.png"/>
+
+<procedure id="playerconfig">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Player:</b> permite selecionar todos os players do teatro selecionado, ou alguns players específicos.</p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+<img src="playerconfig2.png" alt="Montagem" width="750" border-effect="line" preview-src="playerconfig2.png"/>
+
+## Report Prices
+
+<img src="prices.png" alt="Montagem" width="750" border-effect="line" preview-src="prices.png"/>
+
+<procedure id="prices">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report Timeline
+
+<img src="timeline.png" alt="Montagem" width="750" border-effect="line" preview-src="timeline.png"/>
+
+<procedure id="timeline">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Player:</b> permite selecionar todos os players do teatro selecionado, ou alguns players específicos.</p>
+    </step>
+    <step>
+        <p><b>Filtro por Data:</b> permite filtrar por um intervalo de tempo específico. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
+## Report User
+
+<img src="users2.png" alt="Montagem" width="750" border-effect="line" preview-src="users2.png"/>
+
+<procedure id="users">
+    <step>
+        <p><b>Filtro por Teatro/Cinema:</b> permite filtrar por todos os teatros ou um teatro específico. </p>
+    </step>
+    <step>
+        <p><b>Filtro por Role:</b> permite selecionar todos os roles ou roles específicos.</p>
+    </step>
+    <step>
+        <p><img type="inline" src="delete-combos.png" alt="Montagem" width="30" border-effect="rounded"/>: reseta as filtragens do report. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="enter.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para gerar o report com os filtros selecionados. </p>
+    </step>
+    <step>
+        <p><img type="inline" src="help.png" alt="Montagem" width="30" border-effect="rounded"/>: clique para exibir textos explicatorios. </p>
+    </step>
+</procedure>
+
