@@ -17,4 +17,5 @@
     	<toc-element topic="Reports.md"/>
     	<toc-element topic="Playlists.md"/>
 	<toc-element topic="Formatos.md"/>
+    <toc-element topic="Overlay.md"/>
 </instance-profile>
