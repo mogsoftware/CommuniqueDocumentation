@@ -193,13 +193,48 @@ O material programado na playlist específica de evento, irá sobrepor todo o co
 
 <chapter title="Lobby" id="config_Lobby">
 
-aaaa
+Configuração migrada para o novo sistema de Overlay.
 
 </chapter>
 
 #### Montagem
 
-<img src="Montagem.jpg"/>
+<p>A montagem dos players deve sempre considerar se o conteúdo será exibido no modo videowall ou não. No caso de não serem exibidos no modo videowall, a quantidade de tvs vai ser igual ao número de saídas de vídeo da máquina e a resolução a ser inserida será equivalente à do sistema.
+Caso o player seja montado para o modo videowall, deve-se considerar que cada saída de vídeo pode comportar até 4 monitores/tvs.
+A imagem abaixo exemplifica uma saída de vídeo com resolução FullHD dividida em quatro partes, onde cada quadrante possui metade da resolução completa do vídeo.
+<img src ="divisaosaidas.png" width="600"/></p>
+
+<p></p><img src="Montagem.jpg" width="600" preview-src="Montagem.jpg"/>
+
+<p></p><list type="decimal">
+<li>Novo Layout
+    <list type="bullet">
+        <li>Cria um novo layout para o player, que pode ser usado como layout alternativo.</li></list></li>
+<li>Layout
+    <list type="bullet">
+        <li>Seleção do layout que será configurado/visualizado.</li>
+        <li>Quando existe mais de uma opção de layout, um ícone de para deletar o layout é exibido ao lado. <img src="selecaoLayouts.png"/></li></list></li>
+<li>Box Width e Box Height
+    <list type="bullet">
+        <li>Box Width: Largura da resolução da TV/Monitor em que o player será exibido.</li>
+        <li>Quando o player é 1x1, utiliza-se o número inteiro. Ex.: 1920. Já quando o player possui mais de uma tela na mesma saída de vídeo, é necessário dividir esse valor por 2. Ex.: 960</li>
+        <li>Box Height: Altura da resolução da TV/Monitor em que o player será exibido.</li>
+        <li>Quando o player é 1x1, utiliza-se o número inteiro. Ex.: 1080. Já quando o player possui mais de uma tela na mesma saída de vídeo, é necessário dividir esse valor por 2. Ex.: 540
+        <p></p><img src="montagemPlayer1x1.png" width="600" preview-src="montagemPlayer1x1.png"/>
+        <img src="montagemPlayer2x2.png" width="600" preview-src="montagemPlayer2x2.png"/></li></list></li>
+
+
+<li>Columns e Rows
+    <list type="bullet">
+        <li>Columns: Número de colunas que serão utilizadas na montagem do player. Esse número vai depender da quantidade de saídas e tvs. Na imagem acima, o player possui uma saída de vídeo e o número de colunas é 2.</li>
+        <li>Rows: Número de linhas que serão utilizadas na montagem do player. Na imagem acima, o número de linhas é 2.</li>
+    </list></li>
+
+<li>Week Days
+    <list type="bullet">
+        <li>Dias da semana em que o conteúdo será exibido. Quando a letra referente ao dia da semana está verde, significa que esse dia está ativo.</li>
+</list></li>
+</list>
 
 #### Plugin
 
