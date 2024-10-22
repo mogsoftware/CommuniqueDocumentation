@@ -3,6 +3,110 @@
 
 ## Glossario
 
+### Censuras
+
+#### Brasil
+
+CLASSIFICAÇÃO INDICATIVA
+
+<img src="age_1.png" style="inline" width="40"/> API "1"<br/>
+<img src="age_2.png" style="inline" width="40"/> API "2"<br/>
+<img src="age_3.png" style="inline" width="40"/> API "3"<br/>
+<img src="age_4.png" style="inline" width="40"/> API "4"<br/>
+<img src="age_5.png" style="inline" width="40"/> API "5"<br/>
+<img src="age_6.png" style="inline" width="40"/> API "6"<br/>
+
+AUTOCLASSIFICAÇÃO
+
+<img src="age_13.png" style="inline" width="40"/> API "13"<br/>
+<img src="age_14.png" style="inline" width="40"/> API "14"<br/>
+<img src="age_15.png" style="inline" width="40"/> API "15"<br/>
+<img src="age_16.png" style="inline" width="40"/> API "16"<br/>
+<img src="age_17.png" style="inline" width="40"/> API "17"<br/>
+<img src="age_18.png" style="inline" width="40"/> API "18"<br/>
+
+
+#### Chile
+
+<img src="CL00.png" style="inline" width="40"/> API "00"<br/>
+<img src="CL01.png" style="inline" width="40"/>API "01"<br/>
+<img src="CL07.png" style="inline" width="40"/> API "07"<br/>
+<img src="CL08.png" style="inline" width="40"/> API "08"<br/>
+<img src="CL14.png" style="inline" width="40"/> API "14"<br/>
+<img src="CL15.png" style="inline" width="40"/> API "15"<br/>
+<img src="CL18.png" style="inline" width="40"/> API "18"<br/>
+<img src="CL19.png" style="inline" width="40"/> API "19"<br/>
+
+#### Colombia
+
+<img src="CO00.png" style="inline" width="32"/> API "00"<br/><br/>
+<img src="CO07.png" style="inline" width="32"/> API "07"<br/><br/>
+<img src="CO12.png" style="inline" width="32"/> API "12"<br/><br/>
+<img src="CO15.png" style="inline" width="32"/> API "15"<br/><br/>
+<img src="CO18.png" style="inline" width="32"/> API "18"<br/>
+
+#### América Central
+
+COSTA RICA
+
+<img src="CR00.png" style="inline" width="40"/> API "00"<br/>
+<img src="CR11.png" style="inline" width="40"/> API "11"<br/>
+<img src="CR12.png" style="inline" width="40"/> API "12"<br/>
+<img src="CR15.png" style="inline" width="40"/> API "15"<br/>
+<img src="CR18.png" style="inline" width="40"/> API "18"<br/>
+
+EL SALVADOR
+
+<img src="ES00.png" style="inline" width="40"/> API "00"<br/>
+<img src="ES11.png" style="inline" width="40"/> API "11"<br/>
+<img src="ES12.png" style="inline" width="40"/> API "12"<br/>
+<img src="ES15.png" style="inline" width="40"/> API "15"<br/>
+<img src="ES18.png" style="inline" width="40"/> API "18"<br/>
+
+GUATEMALA
+
+<img src="GT00.png" style="inline" width="40"/> API "00"<br/>
+<img src="GT11.png" style="inline" width="40"/> API "11"<br/>
+<img src="GT12.png" style="inline" width="40"/> API "12"<br/>
+<img src="GT15.png" style="inline" width="40"/> API "15"<br/>
+<img src="GT18.png" style="inline" width="40"/> API "18"<br/>
+
+
+HONDURAS
+
+<img src="HN00.png" style="inline" width="40"/> API "00"<br/>
+<img src="HN07.png" style="inline" width="40"/> API "07"<br/>
+<img src="HN10.png" style="inline" width="40"/> API "10"<br/>
+<img src="HN13.png" style="inline" width="40"/> API "13"<br/>
+<img src="HN15.png" style="inline" width="40"/> API "15"<br/>
+<img src="HN16.png" style="inline" width="40"/> API "16"<br/>
+<img src="HN18.png" style="inline" width="40"/> API "18"<br/>
+
+PANAMA
+
+<img src="PA00.png" style="inline" width="40"/> API "00"<br/>
+<img src="PA12.png" style="inline" width="40"/> API "12"<br/>
+<img src="PA15.png" style="inline" width="40"/> API "15"<br/>
+<img src="PA18.png" style="inline" width="40"/> API "18"<br/>
+
+#### Bolivia
+
+<img src="BO00.png" style="inline" width="40"/> API "00"<br/>
+<img src="BO14.png" style="inline" width="40"/> API "14"<br/>
+<img src="BO18.png" style="inline" width="40"/> API "18"<br/>
+
+#### Paraguai
+
+<img src="PY00.png" style="inline" width="40"/> API "00"<br/>
+<img src="PY13.png" style="inline" width="40"/> API "13"<br/>
+<img src="PY16.png" style="inline" width="40"/> API "16"<br/>
+<img src="PE18.png" style="inline" width="40"/> API "18"<br/>
+
+#### Peru
+
+<img src="PE00.png" style="inline" width="40"/> API "00"<br/>
+<img src="PE14.png" style="inline" width="40"/> API "14"<br/>
+<img src="PE18.png" style="inline" width="40"/> API "18"<br/>
 
 ### Media Type
 
