@@ -2,20 +2,19 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="hi"
-                 name="Documentação"
-                  start-page="Communique5.md">
+<instance-profile id="hi" name="Documentação" start-page="Communique5.md">
 
-    <toc-element topic="Communique5.md">
-<!--        <toc-element topic="Management.md"/>-->
-        <toc-element topic="Management.md"/>
-        <toc-element topic="Users.md"/>
-        <toc-element topic="Theaters.md"/>
-        <toc-element topic="Player.md"/>
-        <toc-element topic="Media.md"/>
-        <toc-element topic="Campanha.md"/>
-    	<toc-element topic="Reports.md"/>
-    	<toc-element topic="Playlists.md"/>
-	<toc-element topic="Formatos.md"/>
+    <toc-element topic="Communique5.md" />
+    <!--        <toc-element topic="Management.md"/>-->
+    <toc-element topic="Management.md"/>
+    <toc-element topic="Users.md"/>
+    <toc-element topic="Theaters.md"/>
+    <toc-element topic="Player.md"/>
+    <toc-element topic="Media.md"/>
+    <toc-element topic="Campanha.md"/>
+    <toc-element topic="Reports.md"/>
+    <toc-element topic="Playlists.md"/>
+    <toc-element topic="Formatos.md"/>
     <toc-element topic="Overlay.md"/>
+    <toc-element topic="Dashboard.md"/>
 </instance-profile>
