@@ -5,108 +5,112 @@
 
 ### Censuras
 
-#### Brasil
+**BRASIL**
 
-CLASSIFICAÇÃO INDICATIVA
+***Classificação indicativa*** - Classificação realizada pelo Ministério da Justiça e Segurança Pública.
 
-<img src="age_1.png" style="inline" width="40"/> API "1"<br/>
-<img src="age_2.png" style="inline" width="40"/> API "2"<br/>
-<img src="age_3.png" style="inline" width="40"/> API "3"<br/>
-<img src="age_4.png" style="inline" width="40"/> API "4"<br/>
-<img src="age_5.png" style="inline" width="40"/> API "5"<br/>
-<img src="age_6.png" style="inline" width="40"/> API "6"<br/>
+<img src="age_1.png" style="inline" width="40"/> Livre - Código Apolo/API "1"<br/>
+<img src="age_2.png" style="inline" width="40"/> Não recomendado para menores de 10 anos - Código Apolo/API "2"<br/>
+<img src="age_3.png" style="inline" width="40"/> Não recomendado para menores de 12 anos - Código Apolo/API "3"<br/>
+<img src="age_4.png" style="inline" width="40"/> Não recomendado para menores de 14 anos - Código Apolo/API "4"<br/>
+<img src="age_5.png" style="inline" width="40"/> Não recomendado para menores de 16 anos - Código Apolo/API "5"<br/>
+<img src="age_6.png" style="inline" width="40"/> Não recomendado para menores de 18 anos - Código Apolo/API "6"<br/>
 
-AUTOCLASSIFICAÇÃO
+***Autoclassificação*** - Classificação realizada pelo produtor da obra.
 
-<img src="age_13.png" style="inline" width="40"/> API "13"<br/>
-<img src="age_14.png" style="inline" width="40"/> API "14"<br/>
-<img src="age_15.png" style="inline" width="40"/> API "15"<br/>
-<img src="age_16.png" style="inline" width="40"/> API "16"<br/>
-<img src="age_17.png" style="inline" width="40"/> API "17"<br/>
-<img src="age_18.png" style="inline" width="40"/> API "18"<br/>
+<img src="age_13.png" style="inline" width="40"/> Livre - Código Apolo/API "13"<br/>
+<img src="age_14.png" style="inline" width="40"/> Não recomendado para menores de 10 anos - Código Apolo/API "14"<br/>
+<img src="age_15.png" style="inline" width="40"/> Não recomendado para menores de 12 anos - Código Apolo/API "15"<br/>
+<img src="age_16.png" style="inline" width="40"/> Não recomendado para menores de 14 anos - Código Apolo/API "16"<br/>
+<img src="age_17.png" style="inline" width="40"/> Não recomendado para menores de 16 anos - Código Apolo/API "17"<br/>
+<img src="age_18.png" style="inline" width="40"/> Não recomendado para menores de 18 anos - Código Apolo/API "18"<br/>
+
+Obs.: Crianças de até 10 anos precisam estar acompanhadas do responsável para acesso às sessões. Após os 10 anos, podem estar com responsável ou portar autorização para acesso a filmes de até 16 anos. 
+Filmes para maiores de 18 anos só são permitidos para adolescentes a partir de 16 anos.
 
 
 #### Chile
 
-<img src="CL00.png" style="inline" width="40"/> API "00"<br/>
-<img src="CL01.png" style="inline" width="40"/>API "01"<br/>
-<img src="CL07.png" style="inline" width="40"/> API "07"<br/>
-<img src="CL08.png" style="inline" width="40"/> API "08"<br/>
-<img src="CL14.png" style="inline" width="40"/> API "14"<br/>
-<img src="CL15.png" style="inline" width="40"/> API "15"<br/>
-<img src="CL18.png" style="inline" width="40"/> API "18"<br/>
-<img src="CL19.png" style="inline" width="40"/> API "19"<br/>
+<img src="CL00.png" style="inline" width="40"/> Todo espectador - Código Apolo/API "00"<br/>
+<img src="CL01.png" style="inline" width="40"/> Todo espectador con restricción - Código Apolo/API "01"<br/>
+<img src="CL07.png" style="inline" width="40"/> Todo Espectador. Sugerida para mayores de 7 años - Código Apolo/API "07"<br/>
+<img src="CL08.png" style="inline" width="40"/> Todo Espectador. Sugerida para mayores de 7 años con restricción  - Código Apolo/API "08"<br/>
+<img src="CL14.png" style="inline" width="40"/> Mayores de 14 años - Código Apolo/API "14"<br/>
+<img src="CL15.png" style="inline" width="40"/> Mayores de 14 años con restricción  - Código Apolo/API "15"<br/>
+<img src="CL18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
+<img src="CL19.png" style="inline" width="40"/> Mayores de 18 años con restricción - Código Apolo/API "19"<br/>
+
+Obs.: Las películas que se encuentran con restricción no permiten la aplicación de descuentos y/o pases gratis para la compra o canje de entradas, dependiendo lo impuesto por las distribuidoras a cargo de cada una, y durante el período de tiempo determinado.
 
 #### Colombia
 
-<img src="CO00.png" style="inline" width="32"/> API "00"<br/><br/>
-<img src="CO07.png" style="inline" width="32"/> API "07"<br/><br/>
-<img src="CO12.png" style="inline" width="32"/> API "12"<br/><br/>
-<img src="CO15.png" style="inline" width="32"/> API "15"<br/><br/>
-<img src="CO18.png" style="inline" width="32"/> API "18"<br/>
+<img src="CO00.png" style="inline" width="32"/> Todo público - Código Apolo/API "00"<br/><br/>
+<img src="CO07.png" style="inline" width="32"/> Mayores de 7 años - Código Apolo/API "07"<br/><br/>
+<img src="CO12.png" style="inline" width="32"/> Mayores de 12 años - Código Apolo/API "12"<br/><br/>
+<img src="CO15.png" style="inline" width="32"/> Mayores de 15 años - Código Apolo/API "15"<br/><br/>
+<img src="CO18.png" style="inline" width="32"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
 #### América Central
 
 COSTA RICA
 
-<img src="CR00.png" style="inline" width="40"/> API "00"<br/>
-<img src="CR11.png" style="inline" width="40"/> API "11"<br/>
-<img src="CR12.png" style="inline" width="40"/> API "12"<br/>
-<img src="CR15.png" style="inline" width="40"/> API "15"<br/>
-<img src="CR18.png" style="inline" width="40"/> API "18"<br/>
+<img src="CR00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="CR11.png" style="inline" width="40"/> Todo público, niños menores de 7 acompañados de un adulto - Código Apolo/API "11"<br/>
+<img src="CR12.png" style="inline" width="40"/> Mayores de 12 años - Código Apolo/API "12"<br/>
+<img src="CR15.png" style="inline" width="40"/> Mayores de 15 años - Código Apolo/API "15"<br/>
+<img src="CR18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
 EL SALVADOR
 
-<img src="ES00.png" style="inline" width="40"/> API "00"<br/>
-<img src="ES11.png" style="inline" width="40"/> API "11"<br/>
-<img src="ES12.png" style="inline" width="40"/> API "12"<br/>
-<img src="ES15.png" style="inline" width="40"/> API "15"<br/>
-<img src="ES18.png" style="inline" width="40"/> API "18"<br/>
+<img src="ES00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="ES11.png" style="inline" width="40"/> Todo público. Comprensible para niños menores de 7 años - Código Apolo/API "11"<br/>
+<img src="ES12.png" style="inline" width="40"/> Mayores de 12 años - Código Apolo/API "12"<br/>
+<img src="ES15.png" style="inline" width="40"/> Mayores de 15 años - Código Apolo/API "15"<br/>
+<img src="ES18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
 GUATEMALA
 
-<img src="GT00.png" style="inline" width="40"/> API "00"<br/>
-<img src="GT11.png" style="inline" width="40"/> API "11"<br/>
-<img src="GT12.png" style="inline" width="40"/> API "12"<br/>
-<img src="GT15.png" style="inline" width="40"/> API "15"<br/>
-<img src="GT18.png" style="inline" width="40"/> API "18"<br/>
+<img src="GT00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="GT11.png" style="inline" width="40"/> Niños de cualquier edad pero acompañados de un adulto - Código Apolo/API "11"<br/>
+<img src="GT12.png" style="inline" width="40"/> Publico de 12 años en adelante - Código Apolo/API "12"<br/>
+<img src="GT15.png" style="inline" width="40"/> Publico de 15 años en adelante - Código Apolo/API "15"<br/>
+<img src="GT18.png" style="inline" width="40"/> Solo para mayores de 18 años - Código Apolo/API "18"<br/>
 
 
 HONDURAS
 
-<img src="HN00.png" style="inline" width="40"/> API "00"<br/>
-<img src="HN07.png" style="inline" width="40"/> API "07"<br/>
-<img src="HN10.png" style="inline" width="40"/> API "10"<br/>
-<img src="HN13.png" style="inline" width="40"/> API "13"<br/>
-<img src="HN15.png" style="inline" width="40"/> API "15"<br/>
-<img src="HN16.png" style="inline" width="40"/> API "16"<br/>
-<img src="HN18.png" style="inline" width="40"/> API "18"<br/>
+<img src="HN00.png" style="inline" width="40"/> Recomendada para todo público - Código Apolo/API "00"<br/>
+<img src="HN07.png" style="inline" width="40"/> Recomendada para edades a partir de los 7 años - Código Apolo/API "07"<br/>
+<img src="HN10.png" style="inline" width="40"/> Recomendada para edades a partir de los 10 años - Código Apolo/API "10"<br/>
+<img src="HN13.png" style="inline" width="40"/> Recomendada para edades a partir de los 13 años - Código Apolo/API "13"<br/>
+<img src="HN16.png" style="inline" width="40"/> Recomendada para edades a partir de los 16 años - Código Apolo/API "16"<br/>
+<img src="HN18.png" style="inline" width="40"/> Recomendada para edades a partir de los 18 años - Código Apolo/API "18"<br/>
 
 PANAMA
 
-<img src="PA00.png" style="inline" width="40"/> API "00"<br/>
-<img src="PA12.png" style="inline" width="40"/> API "12"<br/>
-<img src="PA15.png" style="inline" width="40"/> API "15"<br/>
-<img src="PA18.png" style="inline" width="40"/> API "18"<br/>
+<img src="PA00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="PA12.png" style="inline" width="40"/> No para menores de 12 años - Código Apolo/API "12"<br/>
+<img src="PA15.png" style="inline" width="40"/> No para menores de 14 años - Código Apolo/API "15"<br/>
+<img src="PA18.png" style="inline" width="40"/> No para menores de 18 años - Código Apolo/API "18"<br/>
 
 #### Bolivia
 
-<img src="BO00.png" style="inline" width="40"/> API "00"<br/>
-<img src="BO14.png" style="inline" width="40"/> API "14"<br/>
-<img src="BO18.png" style="inline" width="40"/> API "18"<br/>
+<img src="BO00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="BO14.png" style="inline" width="40"/> Mayores de 14 años - Código Apolo/API "14"<br/>
+<img src="BO18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
 #### Paraguai
 
-<img src="PY00.png" style="inline" width="40"/> API "00"<br/>
-<img src="PY13.png" style="inline" width="40"/> API "13"<br/>
-<img src="PY16.png" style="inline" width="40"/> API "16"<br/>
-<img src="PE18.png" style="inline" width="40"/> API "18"<br/>
+<img src="PY00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="PY13.png" style="inline" width="40"/> Mayores de 13 años - Código Apolo/API "13"<br/>
+<img src="PY16.png" style="inline" width="40"/> Mayores de 16 años - Código Apolo/API "16"<br/>
+<img src="PE18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
 #### Peru
 
-<img src="PE00.png" style="inline" width="40"/> API "00"<br/>
-<img src="PE14.png" style="inline" width="40"/> API "14"<br/>
-<img src="PE18.png" style="inline" width="40"/> API "18"<br/>
+<img src="PE00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
+<img src="PE14.png" style="inline" width="40"/> Mayor a 14 años - Código Apolo/API "14"<br/>
+<img src="PE18.png" style="inline" width="40"/> Mayor a 18 años - Código Apolo/API "18"<br/>
 
 ### Media Type
 
