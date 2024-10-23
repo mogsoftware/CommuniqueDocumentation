@@ -5,9 +5,9 @@
 
 ### Censuras
 
-**BRASIL**
+#### BRASIL
 
-***Classificação indicativa*** - Classificação realizada pelo Ministério da Justiça e Segurança Pública.
+***Classificação Indicativa*** - Classificação realizada pelo Ministério da Justiça e Segurança Pública.
 
 <img src="age_1.png" style="inline" width="40"/> Livre - Código Apolo/API "1"<br/>
 <img src="age_2.png" style="inline" width="40"/> Não recomendado para menores de 10 anos - Código Apolo/API "2"<br/>
@@ -29,7 +29,7 @@ Obs.: Crianças de até 10 anos precisam estar acompanhadas do responsável para
 Filmes para maiores de 18 anos só são permitidos para adolescentes a partir de 16 anos.
 
 
-#### Chile
+#### CHILE
 
 <img src="CL00.png" style="inline" width="40"/> Todo espectador - Código Apolo/API "00"<br/>
 <img src="CL01.png" style="inline" width="40"/> Todo espectador con restricción - Código Apolo/API "01"<br/>
@@ -42,7 +42,7 @@ Filmes para maiores de 18 anos só são permitidos para adolescentes a partir de
 
 Obs.: Las películas que se encuentran con restricción no permiten la aplicación de descuentos y/o pases gratis para la compra o canje de entradas, dependiendo lo impuesto por las distribuidoras a cargo de cada una, y durante el período de tiempo determinado.
 
-#### Colombia
+#### COLOMBIA
 
 <img src="CO00.png" style="inline" width="32"/> Todo público - Código Apolo/API "00"<br/><br/>
 <img src="CO07.png" style="inline" width="32"/> Mayores de 7 años - Código Apolo/API "07"<br/><br/>
@@ -50,7 +50,7 @@ Obs.: Las películas que se encuentran con restricción no permiten la aplicaci�
 <img src="CO15.png" style="inline" width="32"/> Mayores de 15 años - Código Apolo/API "15"<br/><br/>
 <img src="CO18.png" style="inline" width="32"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
-#### América Central
+#### AMERICA CENTRAL
 
 COSTA RICA
 
@@ -93,20 +93,20 @@ PANAMA
 <img src="PA15.png" style="inline" width="40"/> No para menores de 14 años - Código Apolo/API "15"<br/>
 <img src="PA18.png" style="inline" width="40"/> No para menores de 18 años - Código Apolo/API "18"<br/>
 
-#### Bolivia
+#### BOLIVIA
 
 <img src="BO00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
 <img src="BO14.png" style="inline" width="40"/> Mayores de 14 años - Código Apolo/API "14"<br/>
 <img src="BO18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
-#### Paraguai
+#### PARAGUAI
 
 <img src="PY00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
 <img src="PY13.png" style="inline" width="40"/> Mayores de 13 años - Código Apolo/API "13"<br/>
 <img src="PY16.png" style="inline" width="40"/> Mayores de 16 años - Código Apolo/API "16"<br/>
 <img src="PE18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 
-#### Peru
+#### PERU
 
 <img src="PE00.png" style="inline" width="40"/> Todo público - Código Apolo/API "00"<br/>
 <img src="PE14.png" style="inline" width="40"/> Mayor a 14 años - Código Apolo/API "14"<br/>
