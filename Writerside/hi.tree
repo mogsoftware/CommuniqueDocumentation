@@ -22,4 +22,5 @@
     <toc-element topic="Reports.md"/>
     <toc-element topic="Smartviewer.md"/>
     <toc-element topic="Prices.md"/>
+    <toc-element topic="Monitoring.md"/>
 </instance-profile>

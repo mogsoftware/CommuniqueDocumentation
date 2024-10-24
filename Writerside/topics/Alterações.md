@@ -12,4 +12,5 @@ Inclusão das paginas: Notificações e Smartviewer (ainda sem conteudo)
 
 Edu
 
-Pagina Dashboard
+Pagina Dashboard<br/>
+Pagina Monitoring
