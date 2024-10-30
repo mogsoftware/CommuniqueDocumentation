@@ -1,6 +1,7 @@
 # Dashboard
 
-O dashboard fornece acesso rápido a informações e configurações globais, facilitando a navegação e o gerenciamento do sistema.
+O dashboard fornece acesso rápido a informações e configurações globais, facilitando a navegação e o gerenciamento do
+sistema.
 
 <img src="dash.png" alt="Montagem" width="700" preview-src="dash.png" border-effect="line"/>
 
@@ -67,7 +68,7 @@ Um gráfico que monitora o status de sincronização dos players no sistema.
 
 ## Uploads
 
-Um gráfico que monitora as medias no sistema.
+Um gráfico que monitora as mídias no sistema.
 
 <img src="dash3.png" alt="Montagem" width="400" preview-src="dash3.png" border-effect="line"/>
 
@@ -97,14 +98,13 @@ Um gráfico que monitora os eventos, lobbys, campanhas e layer no sistema.
         <p><b>Calendário:</b> exibe o mês atual e seus dias, mostrando informações programadas para cada dia.</p>
     </step>
     <step>
-        <p><b>Legenda de Cores:</b> 
+        <p><b>Legenda de Cores:</b></p>
             <ul>
                 <li><b>Campanha (Verde):</b> indica que uma campanha está programada para o dia.</li>
                 <li><b>Evento (Roxo):</b> mostra que um evento está agendado para o dia.</li>
                 <li><b>Layer (Laranja):</b> representa que uma layer será exibida no dia.</li>
                 <li><b>Lobby (Vermelho):</b> sinaliza que um lobby está programado para o dia.</li>
             </ul>
-        </p>
     </step>
     <step>
         <p><b>Coloração dos Dias:</b> se algum evento, campanha, layer ou lobby estiver programado para um dia específico, o dia será destacado com a cor correspondente à legenda.</p>
