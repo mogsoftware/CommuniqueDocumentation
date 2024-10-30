@@ -128,7 +128,7 @@ PANAMA
 <li>Layer: Mídias utilizadas para programação do layer.</li>
 <li>Lobby Domination: Mídias utilizadas para programação do Lobby Domination.</li>
 <li>Menu (Latam): Vídeos de itens de menu do cinema.</li>
-<li>Poster: Posters de filmes que serão utilizados pelos plugins Boxoffice, Prices, Postercase e Smartpostercase. Para que o poster seja exibido, é necessário preencher o campo de CODE com o código do filme antecedido pela letra P.<img src="Poster_code.png"/></li>
+<li>Poster: Posters de filmes que serão utilizados pelos plugins Boxoffice, Prices, Postercase e Smartpostercase. Para que o poster seja exibido, é necessário preencher o campo de CODE com o código do filme antecedido pela letra P. <img src="Poster_code.png"/></li>
 <li>Prices: Banner ou vídeo de rodapé do plugin Prices.</li>
 <li>Prime (Brasil): Vídeos de menu dos cinemas Prime e Bistro.</li>
 <li>Promo (Latam): Outras promos ou mídias que serão exibidas no snack do cinema.</li>
