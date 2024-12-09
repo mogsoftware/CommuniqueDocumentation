@@ -246,6 +246,24 @@ Na última tela, serão exibidos os detalhes finais da programação do lobby
 
 <img src="lobby4.png" alt="Montagem" width="700" preview-src="lobby4.png" border-effect="line"/>
 
+### Upload de Lobby
+
+<img src="uploadlobby.png" alt="Montagem" width="400" preview-src="uploadlobby.png" border-effect="line"/>
+
+<procedure id="uploadlobby">
+    <step>
+        <p><b>Formato do Arquivo:</b> formato baseado na resolução do arquivo, utilizado para todos os tipos de mídia. </p>
+    </step>
+    <step>
+        <p><b>Formato do Conteúdo:</b> indica como o conteúdo é disposto na área do vídeo. Exemplo: Um arquivo de vídeo pode ter um formato 2x2, mas o conteúdo servir apenas para 2 telas; nesse caso, o formato do arquivo será 2x2, e o formato do conteúdo será 2x1. </p>
+    </step>
+    <step>
+        <p><b>Conteúdo espelhado:</b> Deve ser ativado sempre que um vídeo tiver conteúdo espelhado. Exemplo: em um arquivo 2x1, o conteúdo pode ser replicado para ambos os monitores; com essa opção, o sistema entenderá que se trata de conteúdo espelhado. </p>
+    </step>
+</procedure>
+
+
+
 
 
 

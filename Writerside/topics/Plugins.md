@@ -252,4 +252,14 @@ Ele também não possui um video de rodapé, mas possui um video padrão que é 
 <p></p>
 <img src="PricesBR.png" width="600"/>
 
+Foi adicionada uma funcionalidade ao Smart Price que permite ao usuário selecionar o tamanho da fonte exibida, 
+com três opções disponíveis. Além disso, há uma funcionalidade de pré-visualização que permite verificar como a tela 
+ficará com o tamanho de fonte escolhido. Essa configuração está disponível no painel de Configurações do plugin dentro do player.
+
+<img src="pricessize1.png" width="600"/>
+<img src="pricessize2.png" width="600"/>
+<img src="pricessize3.png" width="600"/>
+<img src="pricessize4.png" width="300"/>
+
+
 </chapter> 
