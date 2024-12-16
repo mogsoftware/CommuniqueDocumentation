@@ -355,6 +355,8 @@ Exemplos variam desde um player único conectado a vários monitores até config
     </step>
 </procedure>
 
+Obs.: A partir da versão 5.1.2 o report de mídia possui a indicação de vigência da mídia. Exibindo a data de entrada da mídia e a data de saída (se houver).
+
 ## Report Playlists
 
 <img src="report-playlists.png" alt="Montagem" width="750" border-effect="line" preview-src="report-playlists.png"/>
@@ -393,6 +395,9 @@ Exemplos variam desde um player único conectado a vários monitores até config
 </procedure>
 
 <img src="report-playlists2.png" alt="Montagem" width="750" border-effect="line" preview-src="report-playlists2.png"/>
+
+Obs.: A partir da versão 5.1.2 o report de playlist possui a indicação de vigência da mídia. Exibindo a data de entrada da mídia e a data de saída (se houver).
+<img src="report-playlists3.png" alt="Montagem" width="750" border-effect="line" preview-src="report-playlists3.png"/>
 
 ## Report Group Programming
 
