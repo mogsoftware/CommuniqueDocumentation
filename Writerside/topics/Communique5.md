@@ -1,4 +1,5 @@
-# Communique 5.0
+# Communique %latest_version%
+
 <show-structure depth="3"/>
 
 ## Glossario
@@ -25,9 +26,9 @@
 <img src="age_17.png" style="inline" width="40"/> Não recomendado para menores de 16 anos - Código Apolo/API "17"<br/>
 <img src="age_18.png" style="inline" width="40"/> Não recomendado para menores de 18 anos - Código Apolo/API "18"<br/>
 
-Obs.: Crianças de até 10 anos precisam estar acompanhadas do responsável para acesso às sessões. Após os 10 anos, podem estar com responsável ou portar autorização para acesso a filmes de até 16 anos. 
+Obs.: Crianças de até 10 anos precisam estar acompanhadas do responsável para acesso às sessões. Após os 10 anos, podem
+estar com responsável ou portar autorização para acesso a filmes de até 16 anos.
 Filmes para maiores de 18 anos só são permitidos para adolescentes a partir de 16 anos.
-
 
 #### CHILE
 
@@ -40,7 +41,9 @@ Filmes para maiores de 18 anos só são permitidos para adolescentes a partir de
 <img src="CL18.png" style="inline" width="40"/> Mayores de 18 años - Código Apolo/API "18"<br/>
 <img src="CL19.png" style="inline" width="40"/> Mayores de 18 años con restricción - Código Apolo/API "19"<br/>
 
-Obs.: Las películas que se encuentran con restricción no permiten la aplicación de descuentos y/o pases gratis para la compra o canje de entradas, dependiendo lo impuesto por las distribuidoras a cargo de cada una, y durante el período de tiempo determinado.
+Obs.: Las películas que se encuentran con restricción no permiten la aplicación de descuentos y/o pases gratis para la
+compra o canje de entradas, dependiendo lo impuesto por las distribuidoras a cargo de cada una, y durante el período de
+tiempo determinado.
 
 #### COLOMBIA
 
@@ -125,13 +128,13 @@ PANAMA
 <li>Layer: Mídias utilizadas para programação do layer.</li>
 <li>Lobby Domination: Mídias utilizadas para programação do Lobby Domination.</li>
 <li>Menu (Latam): Vídeos de itens de menu do cinema.</li>
-<li>Poster: Posters de filmes que serão utilizados pelos plugins Boxoffice, Prices, Postercase e Smartpostercase. Para que o poster seja exibido, é necessário preencher o campo de CODE com o código do filme antecedido pela letra P.<img src="Poster_code.png"/></li>
+<li>Poster: Posters de filmes que serão utilizados pelos plugins Boxoffice, Prices, Postercase e Smartpostercase. Para que o poster seja exibido, é necessário preencher o campo de CODE com o código do filme antecedido pela letra P. <img src="Poster_code.png"/></li>
 <li>Prices: Banner ou vídeo de rodapé do plugin Prices.</li>
 <li>Prime (Brasil): Vídeos de menu dos cinemas Prime e Bistro.</li>
 <li>Promo (Latam): Outras promos ou mídias que serão exibidas no snack do cinema.</li>
 <li>Showtimes: Banner ou vídeo de rodapé do plugin Showtimes.</li>
-<li>Still: Imagem de combo do plugin Combos. Devem ser upadas no sistema em png e são utilizadas nas duas versões do plugin. Para que o still seja exibido seja exibido, é necessário preencher o campo CODE com o código do combo antecedido pela letra C.<img src="Still_code.png"/></li>
-<li>Trailer: Trailers que serão exibidos no cinema. Pode ser utilizado em playlist e no plugin Smartpostercase. Para que o trailer seja exibido seja exibido no smartpostercase, é necessário preencher o campo CODE com o código do filme antecedido pela letra T. <img src="Trailer_code.png"/></li>
+<li>Still: Imagem de combo do plugin Combos. Devem ser upadas no sistema em png e são utilizadas nas duas versões do plugin. Para que o still seja exibido, é necessário preencher o campo CODE com o código do combo antecedido pela letra C. <img src="Still_code.png"/></li>
+<li>Trailer: Trailers que serão exibidos no cinema. Pode ser utilizado em playlist e no plugin Smartpostercase. Para que o trailer seja exibido no smartpostercase, é necessário preencher o campo CODE com o código do filme antecedido pela letra T. <img src="Trailer_code.png"/></li>
 </list>
 
 ### Locate

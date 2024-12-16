@@ -2,10 +2,15 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <enable-contribution>true</enable-contribution>
+    </variables>
     <build-profile instance="hi">
         <variables>
+            <offline-docs>true</offline-docs>
+<!--            <versions-switcher>help-versions.json</versions-switcher>-->
             <noindex-content>true</noindex-content>
+
         </variables>
     </build-profile>
     <build-profile instance="c5">
