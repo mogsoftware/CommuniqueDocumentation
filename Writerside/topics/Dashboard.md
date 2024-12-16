@@ -144,5 +144,15 @@ Um gráfico que monitora os erros de API.
     </step>
 </procedure>
 
+## Ícone do País
+
+Quando o menu lateral está fechado, a logo da MOG é exibida alternadamente com a bandeira do país selecionado. 
+
+<img src="iconepais1.png" alt="Montagem" width="600" preview-src="iconepais1.png" border-effect="line"/>
+<img src="iconepais2.png" alt="Montagem" width="600" preview-src="iconepais2.png" border-effect="line"/>
+
+Já com o menu lateral aberto, o nome do país selecionado aparece abaixo do logotipo do Communique.
+
+<img src="descricaopais.png" alt="Montagem" width="600" preview-src="descricaopais.png" border-effect="line"/>
 
 

@@ -84,6 +84,14 @@ O Monitoramento de Player é uma funcionalidade usada para supervisionar o statu
     </step>
 </procedure>
 
+### Ping Plugin
+
+<img src="pingplugin.png" alt="Montagem" width="400" preview-src="pingplugin.png" border-effect="line"/>
+
+A funcionalidade de indicação de plugin não responsivo utiliza a cor roxa para alertar sobre problemas em players. Esse status aparece quando o sistema detecta que um plugin parou de responder, resultando em uma tela preta ou congelada, sem atualizações de informações por um período prolongado.
+
+
+
 
 
 
