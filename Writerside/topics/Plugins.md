@@ -159,6 +159,12 @@ O campo *Combos/XML* recebe o endereço da API ou do arquivo json local, conform
 <p></p><img src="configCombo1x1.png"/>
 <img src="Combo1x1.png" width="600"/>
 
+A versão 2.1 do Combo foi incluída para exibir os Layouts do cinema. Esse valor diferenciado vêm direto da API e é exibido com a logo referente ao preço. 
+Atualmente utiliza-se Cineplus nos cinemas da América Central e Gold e Pró para a Colômbia.
+
+<img src="combos21.png" width="600"/>
+
+
 <br/>
 **REGULAR 2x1**
 
